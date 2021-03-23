@@ -15,6 +15,12 @@
   <link href="${pageContext.request.contextPath}/resources/css/bootstrap.css" rel="stylesheet" />
   <link href="${pageContext.request.contextPath}/resources/css/bootstrap-grid.css" rel="stylesheet"/>
 
+  <!--====== Icon css ======-->
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/dripicons/webfont.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/mdiicons/css/materialdesignicons.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/unicons/css/unicons.css"  />
+  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/mdi/css/font-awesome.min.css" />
+
   <!--====== Fonts css ======-->
   <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/notokr.css">
   <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/roboto.css">
@@ -25,6 +31,8 @@
 
   <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" />
   <link href="${pageContext.request.contextPath}/resources/css/common.css" rel="stylesheet" />
+
+
 
 
 </head>
@@ -136,7 +144,7 @@
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i data-feather="map-pin"></i>
+                    <i data-feather="map"></i>
                   </div>
                   <div class="info-text">
                     <p><span>Location:</span> 경기도 성남시</p>
@@ -366,7 +374,8 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-1.jpg"><i data-feather="plus-circle" width="3rem" height="3rem"></i></a></li>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-1.jpg"><i data-feather="plus-circle"></i>
+                  </a></li>
                 </ul>
               </div>
             </div>
@@ -489,20 +498,17 @@
 <script src="${pageContext.request.contextPath}/resources/js/jquery.magnific-popup.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/parallax.min.js"></script>
 
-<script src="${pageContext.request.contextPath}/resources/js/waypoints.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/jquery.counterup.min.js"></script>
 
+<script src="${pageContext.request.contextPath}/resources/js/jquery.counterup.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.appear.min.js"></script>
 
 <script src="${pageContext.request.contextPath}/resources/js/scrolling-nav.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.easing.min.js"></script>
 
 <script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/feather.min.js"></script>
 
-  <script>
-    feather.replace()
-  </script>
+
+
 
 </body>
 

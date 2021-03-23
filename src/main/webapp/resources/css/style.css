@@ -978,7 +978,7 @@
       .single-work .work-overlay .work-content .work-title {
         font-size: 22px;
         color: #fff;
-        font-weight: 60;
+        font-weight: 600;
         -webkit-transform: translateY(-100%);
         -moz-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
@@ -1622,8 +1622,13 @@ i-feather svg {
   vertical-align: top;
 }
 
-/*.feather {
-    height: 1rem;
-    width: 1rem;
-    vertical-align: top;
-}*/
+.feather {
+  height: 1rem;
+  width: 1rem;
+  vertical-align: top;
+}
+
+.feather-sm {
+  height: 0.8rem;
+  width: 0.8rem;
+}

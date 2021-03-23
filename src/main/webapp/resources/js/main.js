@@ -1,3 +1,5 @@
+
+
 (function($){
     
     "use strict";
@@ -97,7 +99,7 @@
         enabled:true
       }
     });
-    
+
     
     //===== Back to top
     
@@ -138,6 +140,8 @@
     });
 
 
+//feather icon
+    feather.replace()
 
     
     
