@@ -404,7 +404,7 @@
           content: '';
           width: 3px;
           height: 0;
-          background-color: #754ef9;
+          background-color: #db2043;
           left: 50%;
           top: -50px;
           -webkit-transform: translateX(-50%);
@@ -424,7 +424,7 @@
             .navigation .navbar .navbar-nav .nav-item a::before {
               display: none; } }
       .navigation .navbar .navbar-nav .nav-item.active a, .navigation .navbar .navbar-nav .nav-item:hover a {
-        color: #754ef9; }
+        color: #db2043; }
         .navigation .navbar .navbar-nav .nav-item.active a::before, .navigation .navbar .navbar-nav .nav-item:hover a::before {
           height: 45px; }
 
@@ -546,7 +546,7 @@
   position: relative; }
   .header-content-right .sub-title {
     font-size: 30px;
-    color: #754ef9;
+    color: #db2043;
     text-transform: uppercase;
     padding-bottom: 15px; }
     @media (max-width: 767px) {
@@ -571,7 +571,7 @@
     content: '';
     width: 100%;
     height: 82%;
-    border: 20px solid #754ef9;
+    border: 20px solid #db2043;
     border-bottom: 0;
     top: 50%;
     left: 0;
@@ -585,7 +585,7 @@
     content: '';
     width: 100%;
     height: 20px;
-    background-color: #754ef9;
+    background-color: #db2043;
     left: 0;
     bottom: 58px;
     z-index: 11; }
@@ -605,7 +605,7 @@
       content: '';
       width: 100%;
       height: 2px;
-      background-color: #754ef9;
+      background-color: #db2043;
       left: -102.5%;
       top: 50%;
       -webkit-transform: translateY(-50%);
@@ -634,8 +634,8 @@
         text-align: center; }
         .header-social .header-social-icon ul li a:hover {
           color: #fff;
-          background-color: #754ef9;
-          border-color: #754ef9; }
+          background-color: #db2043;
+          border-color: #db2043; }
 
 /*===========================
         2.experience css
@@ -664,11 +664,11 @@
 .timeline-event:hover .timeline-event-icon {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background-color: #425BB5;
+  background-color: #db2043;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-  box-shadow: inset 40em 0 0 0 #425BB5;
+  box-shadow: inset 40em 0 0 0 #db2043;
 }
 
 .timeline-event-copy {
@@ -713,7 +713,7 @@
   transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #425BB5;
+  background-color: #db2043;
   outline: 10px solid #f3f3f3;
   display: block;
   margin: 0.5em 0.5em 0.5em -0.5em;
@@ -735,7 +735,7 @@
   font-size: 12px;
   font-weight: bold;
   background-color: black;
-  box-shadow: inset 0 0 0 0em #425BB5;
+  box-shadow: inset 0 0 0 0em #db2043;
   display: inline-block;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
@@ -743,14 +743,14 @@
 
 
 /*===========================
-        3.skill css
+        3.about css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .skill-area {
+  .about-area {
     padding-top: 90px;
     padding-bottom: 100px; } }
 @media (max-width: 767px) {
-  .skill-area {
+  .about-area {
     padding-top: 70px;
     padding-bottom: 80px; } }
 
@@ -778,7 +778,7 @@
         float: left; } }
 .about-content .single-info .info-icon i {
   font-size: 16px;
-  color: #754ef9; }
+  color: #db2043; }
 .about-content .single-info .info-text {
   padding-left: 13px; }
   .about-content .single-info .info-text p span {
@@ -786,9 +786,7 @@
 
 .about-skills .skill-item .skill-header {
   position: relative; }
-  .about-skills .skill-item .skill-header .skill-title {
-    font-size: 16px;
-    font-weight: 400; }
+
   .about-skills .skill-item .skill-header .skill-percentage {
     position: absolute;
     top: 0;
@@ -803,7 +801,7 @@
     display: flex; }
     .about-skills .skill-item .skill-header .skill-percentage .count-box {
       font-size: 16px;
-      color: #32333c; }
+      color: #db2043; }
 .about-skills .skill-item .skill-bar {
   margin-top: 15px; }
   .about-skills .skill-item .skill-bar .bar-inner {
@@ -818,13 +816,62 @@
       left: 0;
       height: 5px;
       border-radius: 5px;
-      background-color: #754ef9;
+      background-color: #db2043;
       -webkit-transition: all 2s ease-out 0s;
       -moz-transition: all 2s ease-out 0s;
       -ms-transition: all 2s ease-out 0s;
       -o-transition: all 2s ease-out 0s;
       transition: all 2s ease-out 0s;
       width: 0; }
+
+
+/*===========================
+    4.SERVICES css
+===========================*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .services-area {
+    padding-top: 90px;
+    padding-bottom: 100px; } }
+@media (max-width: 767px) {
+  .services-area {
+    padding-top: 70px;
+    padding-bottom: 80px; } }
+
+.single-service {
+  background-color: #fff;
+  border: 1px solid #eceff8;
+  border-radius: 5px;
+  padding: 25px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+@media (max-width: 767px) {
+  .single-service {
+    padding: 15px; } }
+.single-service .service-icon i {
+  font-size: 60px;
+  color: #db2043;
+  line-height: 56px; }
+.single-service .service-content {
+  margin-top: 11px; }
+.single-service .service-content .service-title a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #32333c;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+.single-service .service-content .service-title a:hover {
+  color: #db2043; }
+.single-service:hover {
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+  box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
 
 
 /*===========================
@@ -848,7 +895,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(117, 78, 249, 0.7);
+    background-color: #db2043;
     z-index: -1; }
 
 .call-action-content .action-title {
@@ -873,12 +920,12 @@
       -moz-box-shadow: none;
       box-shadow: none;
       background-color: #fff;
-      color: #754ef9;
+      color: #db2043;
       border-color: #fff; }
       .call-action-content ul li .main-btn.custom:hover {
-        background-color: #754ef9;
+        background-color: #db2043;
         color: #fff;
-        border-color: #754ef9; }
+        border-color: #db2043; }
     .call-action-content ul li .main-btn.custom-2 {
       color: #fff;
       background-color: transparent;
@@ -910,7 +957,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(117, 78, 249, 0.8);
+    background-color: #db2043;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -984,11 +1031,11 @@
             transition: all 0.3s ease-out 0s; }
 
             .single-work .work-overlay .work-content ul li:nth-of-type(1) {
-            -webkit-transform: translateX(-100%);
-            -moz-transform: translateX(-100%);
-            -ms-transform: translateX(-100%);
-            -o-transform: translateX(-100%);
-            transform: translateX(-100%); }
+            -webkit-transform: translateY(100%);
+            -moz-transform: translateY(100%);
+            -ms-transform: translateY(100%);
+            -o-transform: translateY(100%);
+            transform: translateY(100%); }
           .single-work .work-overlay .work-content ul li:nth-of-type(2) {
             -webkit-transform: translateX(100%);
             -moz-transform: translateX(100%);
@@ -1070,7 +1117,7 @@
       padding: 30px 25px; } }
   .contact-box .contact-icon i {
     font-size: 48px;
-    color: #754ef9; }
+    color: #db2043; }
   .contact-box .contact-content {
     margin-top: 15px; }
     .contact-box .contact-content .contact-title {
@@ -1114,7 +1161,7 @@ p.form-message.success, p.form-message.error {
       opacity: 1;
       color: #8a8fa3; }
     .single-form input:focus, .single-form textarea:focus {
-      border-color: #754ef9; }
+      border-color: #db2043; }
   .single-form textarea {
     height: 135px;
     padding-top: 10px;
@@ -1176,7 +1223,7 @@ p.form-message.success, p.form-message.error {
           line-height: 50px;
           font-size: 20px; } }
       .footer-content ul li a:hover {
-        background-color: #754ef9;
+        background-color: #db2043;
         color: #fff; }
 
 .footer-copyright {
@@ -1206,8 +1253,8 @@ p.form-message.success, p.form-message.error {
   display: none; }
   .back-to-top:hover {
     color: #fff;
-    background-color: #754ef9;
-    border-color: #754ef9; }
+    background-color: #db2043;
+    border-color: #db2043; }
 
 /*===========================
       10.PAGE BANNER css 
@@ -1312,9 +1359,9 @@ p.form-message.success, p.form-message.error {
         .single-blog-post .blog-content .meta li a {
           font-size: 14px; } }
       .single-blog-post .blog-content .meta li a:hover {
-        color: #754ef9; }
+        color: #db2043; }
       .single-blog-post .blog-content .meta li a i {
-        color: #754ef9;
+        color: #db2043;
         margin-right: 5px; }
   .single-blog-post .blog-content .blockquote {
     margin-bottom: 0;
@@ -1353,7 +1400,7 @@ p.form-message.success, p.form-message.error {
       .single-blog-post .blog-tag-share .blog-tag .tag li a {
         font-size: 14px; } }
     .single-blog-post .blog-tag-share .blog-tag .tag li a:hover {
-      color: #754ef9; }
+      color:#db2043; }
 .single-blog-post .blog-tag-share .blgo-share span {
   text-transform: uppercase;
   color: #32333c;
@@ -1419,7 +1466,7 @@ p.form-message.success, p.form-message.error {
       opacity: 1;
       color: #8a8fa3; }
     .single-blog-post .blog-comment .comment-form .comment-form-box .single-input input:focus, .single-blog-post .blog-comment .comment-form .comment-form-box .single-input textarea:focus {
-      border-color: #754ef9; }
+      border-color: #db2043; }
   .single-blog-post .blog-comment .comment-form .comment-form-box .single-input textarea {
     height: 160px;
     padding-top: 20px;
@@ -1448,15 +1495,15 @@ p.form-message.success, p.form-message.error {
       opacity: 1;
       color: #8a8fa3; }
     .blog-sidebar .sidebar-search input:focus {
-      border-color: #754ef9; }
+      border-color: #db2043; }
   .blog-sidebar .sidebar-search button {
     width: 65px;
     height: 60px;
     text-align: center;
-    background-color: #754ef9;
+    background-color: #db2043;
     font-size: 30px;
     color: #fff;
-    border: 1px solid #754ef9;
+    border: 1px solid #db2043;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     position: absolute;
@@ -1493,7 +1540,7 @@ p.form-message.success, p.form-message.error {
           .blog-sidebar .sidebar-post .single-sidebar-post .post-content .post-title a {
             font-size: 15px; } }
         .blog-sidebar .sidebar-post .single-sidebar-post .post-content .post-title a:hover {
-          color: #754ef9; }
+          color: #db2043; }
       .blog-sidebar .sidebar-post .single-sidebar-post .post-content span {
         color: #8a8fa3;
         font-size: 14px; }
@@ -1514,7 +1561,7 @@ p.form-message.success, p.form-message.error {
     .blog-sidebar .sidebar-category ul li a span {
       float: right; }
     .blog-sidebar .sidebar-category ul li a:hover {
-      color: #754ef9; }
+      color: #db2043; }
 .blog-sidebar .sidebar-subscribe {
   padding: 25px 20px;
   border: 1px solid #ddd;
@@ -1541,15 +1588,15 @@ p.form-message.success, p.form-message.error {
         opacity: 1;
         color: #8a8fa3; }
       .blog-sidebar .sidebar-subscribe .subscribe-form input:focus {
-        border-color: #754ef9; }
+        border-color: #db2043; }
     .blog-sidebar .sidebar-subscribe .subscribe-form button {
       width: 65px;
       height: 50px;
       text-align: center;
-      background-color: #754ef9;
+      background-color: #db2043;
       font-size: 20px;
       color: #fff;
-      border: 1px solid #754ef9;
+      border: 1px solid #db2043;
       border-top-right-radius: 50px;
       border-bottom-right-radius: 50px;
       position: absolute;

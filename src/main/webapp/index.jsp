@@ -36,8 +36,17 @@
 
   <!--====== HEADER PART ENDS ======-->
 
+  <!--====== experience PART START ======-->
   <section id="experience" class="experience-area site-section">
     <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="title">Experience</h2>
+            <p>4년차 웹디자이너 최주연입니다.</p>
+          </div> <!-- section title -->
+        </div>
+      </div> <!-- row -->
       <div class="row">
         <div class="col-12">
           <ul class="timeline">
@@ -75,11 +84,11 @@
       </div>
     </div>
   </section>
+  <!--====== experience PART ENDS ======-->
 
+  <!--====== skill PART START ======-->
 
-  <!--====== ABOUT PART START ======-->
-
-  <section id="skill" class="skill-area site-section bg-light">
+  <section id="about" class="about-area site-section bg-light">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -89,60 +98,91 @@
           </div> <!-- section title -->
         </div>
       </div> <!-- row -->
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="about-content mt-50">
-            <h5 class="about-title">Hi There! I'm Mark Parker</h5>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="about-content mt-5 text-center">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <ul class="clearfix">
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i class="lni-calendar"></i>
+                    <i data-feather="carlendar"></i>
                   </div>
                   <div class="info-text">
-                    <p><span>Date of birth:</span> 8 June 1995</p>
+                    <p><span>Date of birth:</span> 14 11 1992</p>
                   </div>
                 </div> <!-- single info -->
               </li>
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i class="lni-envelope"></i>
+                    <i data-feather="mail"></i>
                   </div>
                   <div class="info-text">
-                    <p><span>Email:</span> parker@mysite.com</p>
+                    <p><span>Email:</span> choi_1114@naver.com</p>
                   </div>
                 </div> <!-- single info -->
               </li>
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i class="lni-phone-handset"></i>
+                    <i data-feather="phone"></i>
                   </div>
                   <div class="info-text">
-                    <p><span>Phone:</span> +1-202-555-0138</p>
+                    <p><span>Phone:</span> 010.5179.1114</p>
                   </div>
                 </div> <!-- single info -->
               </li>
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i class="lni-map-marker"></i>
+                    <i data-feather="map-pin"></i>
                   </div>
                   <div class="info-text">
-                    <p><span>Location:</span> 4373, El Centro, CA</p>
+                    <p><span>Location:</span> 경기도 성남시</p>
                   </div>
                 </div> <!-- single info -->
               </li>
             </ul>
           </div> <!-- about content -->
         </div>
-        <div class="col-xl-5 offset-xl-1 col-lg-6">
-          <div class="about-skills pt-25">
-            <div class="skill-item mt-25">
+        <div class="col-lg-6 col-sm-12">
+          <div class="about-skills pt-3">
+            <div class="skill-item mt-3">
               <div class="skill-header">
                 <h6 class="skill-title">HTML</h6>
+                <div class="skill-percentage">
+                  <div class="count-box counted">
+                    <span class="counter">100</span>
+                  </div>
+                  %
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="bar-inner">
+                  <div class="bar progress-line" data-width="100"></div>
+                </div>
+              </div>
+            </div> <!-- skill item -->
+            <div class="skill-item mt-3">
+              <div class="skill-header">
+                <h6 class="skill-title">CSS</h6>
+                <div class="skill-percentage">
+                  <div class="count-box counted">
+                    <span class="counter">100</span>
+                  </div>
+                  %
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="bar-inner">
+                  <div class="bar progress-line" data-width="100"></div>
+                </div>
+              </div>
+            </div> <!-- skill item -->
+            <div class="skill-item mt-3">
+              <div class="skill-header">
+                <h6 class="skill-title">JAVA Script</h6>
                 <div class="skill-percentage">
                   <div class="count-box counted">
                     <span class="counter">80</span>
@@ -156,41 +196,29 @@
                 </div>
               </div>
             </div> <!-- skill item -->
-            <div class="skill-item mt-25">
-              <div class="skill-header">
-                <h6 class="skill-title">CSS</h6>
-                <div class="skill-percentage">
-                  <div class="count-box counted">
-                    <span class="counter">60</span>
-                  </div>
-                  %
-                </div>
-              </div>
-              <div class="skill-bar">
-                <div class="bar-inner">
-                  <div class="bar progress-line" data-width="60"></div>
-                </div>
-              </div>
-            </div> <!-- skill item -->
-            <div class="skill-item mt-25">
+          </div> <!-- about skills -->
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="about-skills pt-3">
+            <div class="skill-item mt-3">
               <div class="skill-header">
                 <h6 class="skill-title">Photoshop</h6>
                 <div class="skill-percentage">
                   <div class="count-box counted">
-                    <span class="counter">50</span>
+                    <span class="counter">100</span>
                   </div>
                   %
                 </div>
               </div>
               <div class="skill-bar">
                 <div class="bar-inner">
-                  <div class="bar progress-line" data-width="50"></div>
+                  <div class="bar progress-line" data-width="100"></div>
                 </div>
               </div>
             </div> <!-- skill item -->
-            <div class="skill-item mt-25">
+            <div class="skill-item mt-3">
               <div class="skill-header">
-                <h6 class="skill-title">Sketch</h6>
+                <h6 class="skill-title">Adobe XD</h6>
                 <div class="skill-percentage">
                   <div class="count-box counted">
                     <span class="counter">90</span>
@@ -204,13 +232,99 @@
                 </div>
               </div>
             </div> <!-- skill item -->
+            <div class="skill-item mt-3">
+              <div class="skill-header">
+                <h6 class="skill-title">Sketch</h6>
+                <div class="skill-percentage">
+                  <div class="count-box counted">
+                    <span class="counter">80</span>
+                  </div>
+                  %
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="bar-inner">
+                  <div class="bar progress-line" data-width="80"></div>
+                </div>
+              </div>
+            </div> <!-- skill item -->
           </div> <!-- about skills -->
         </div>
       </div> <!-- row -->
+
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-service text-center mt-3 mt-lg-5">
+            <div class="service-icon text-danger mb-3">
+              <i data-feather="monitor" width="3rem" height="3rem"></i>
+            </div>
+            <div class="service-content">
+              <h4 class="service-title"><a href="#">Web Design</a></h4>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+            </div>
+          </div> <!-- single service -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-service text-center mt-3 mt-lg-5">
+            <div class="service-icon text-danger mb-3">
+              <i data-feather="smartphone" width="3rem" height="3rem"></i>
+            </div>
+            <div class="service-content">
+              <h4 class="service-title"><a href="#">Mobile Design</a></h4>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+            </div>
+          </div> <!-- single service -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-service text-center mt-3 mt-lg-5">
+            <div class="service-icon text-danger mb-3">
+              <i data-feather="code" width="3rem" height="3rem"></i>
+            </div>
+            <div class="service-content">
+              <h4 class="service-title"><a href="#">Web Development</a></h4>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+            </div>
+          </div> <!-- single service -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-service text-center mt-3 mt-lg-5">
+            <div class="service-icon text-danger mb-3">
+              <i data-feather="pen-tool" width="3rem" height="3rem"></i>
+            </div>
+            <div class="service-content">
+              <h4 class="service-title"><a href="#contact">Graphic Design</a></h4>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+            </div>
+          </div> <!-- single service -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-service text-center mt-3 mt-lg-5">
+            <div class="service-icon text-danger mb-3">
+              <i data-feather="layout" width="3rem" height="3rem"></i>
+            </div>
+            <div class="service-content">
+              <h4 class="service-title"><a href="#">Contents Design</a></h4>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+            </div>
+          </div> <!-- single service -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-service text-center mt-3 mt-lg-5">
+            <div class="service-icon text-danger mb-3">
+              <i data-feather="git-merge" width="3rem" height="3rem"></i>
+            </div>
+            <div class="service-content">
+              <h4 class="service-title"><a href="#">Illustration Design</a></h4>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+            </div>
+          </div> <!-- single service -->
+        </div>
+      </div> <!-- row -->
+
     </div> <!-- container -->
   </section>
 
-  <!--====== ABOUT PART ENDS ======-->
+  <!--====== skill PART ENDS ======-->
 
   <!--====== WORK PART START ======-->
 

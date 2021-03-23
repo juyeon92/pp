@@ -20,7 +20,7 @@
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#experience">Experience</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#skill">Skills</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#about">about</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#portfolio">portfolio</a></li>
                             </ul>
                         </div> <!-- navbar collapse -->
