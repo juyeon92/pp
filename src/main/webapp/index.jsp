@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/dripicons/webfont.css">
   <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/mdiicons/css/materialdesignicons.css">
   <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/unicons/css/unicons.css"  />
-  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/mdi/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/fontawesome/css/font-awesome.min.css" />
 
   <!--====== Fonts css ======-->
   <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/notokr.css">
@@ -114,17 +114,17 @@
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i data-feather="carlendar"></i>
+                    <i class="dripicons-calendar"></i>
                   </div>
                   <div class="info-text">
-                    <p><span>Date of birth:</span> 14 11 1992</p>
+                    <p><span>Date of birth:</span> 14.11.1992</p>
                   </div>
                 </div> <!-- single info -->
               </li>
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i data-feather="mail"></i>
+                    <i class="dripicons-mail"></i>
                   </div>
                   <div class="info-text">
                     <p><span>Email:</span> choi_1114@naver.com</p>
@@ -134,17 +134,17 @@
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i data-feather="phone"></i>
+                    <i class="dripicons-phone"></i>
                   </div>
                   <div class="info-text">
-                    <p><span>Phone:</span> 010.5179.1114</p>
+                    <p><span>Phone:</span> 010-5179-1114</p>
                   </div>
                 </div> <!-- single info -->
               </li>
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i data-feather="map"></i>
+                    <i class="dripicons-location"></i>
                   </div>
                   <div class="info-text">
                     <p><span>Location:</span> 경기도 성남시</p>
@@ -264,7 +264,7 @@
         <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
-              <i data-feather="monitor" width="3rem" height="3rem"></i>
+              <i class="dripicons-monitor"></i>
             </div>
             <div class="service-content">
               <h4 class="service-title"><a href="#">Web Design</a></h4>
@@ -275,7 +275,7 @@
         <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
-              <i data-feather="smartphone" width="3rem" height="3rem"></i>
+              <i class="dripicons-device-tablet"></i>
             </div>
             <div class="service-content">
               <h4 class="service-title"><a href="#">Mobile Design</a></h4>
@@ -286,10 +286,10 @@
         <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
-              <i data-feather="code" width="3rem" height="3rem"></i>
+              <i class="dripicons-code"></i>
             </div>
             <div class="service-content">
-              <h4 class="service-title"><a href="#">Web Development</a></h4>
+              <h4 class="service-title"><a href="#">Development</a></h4>
               <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
             </div>
           </div> <!-- single service -->
@@ -297,7 +297,7 @@
         <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
-              <i data-feather="pen-tool" width="3rem" height="3rem"></i>
+              <i class="fa fa-object-group"></i>
             </div>
             <div class="service-content">
               <h4 class="service-title"><a href="#contact">Graphic Design</a></h4>
@@ -308,10 +308,10 @@
         <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
-              <i data-feather="layout" width="3rem" height="3rem"></i>
+              <i class="dripicons-browser"></i>
             </div>
             <div class="service-content">
-              <h4 class="service-title"><a href="#">Contents Design</a></h4>
+              <h4 class="service-title"><a href="#">Web Contents Design</a></h4>
               <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
             </div>
           </div> <!-- single service -->
@@ -319,7 +319,7 @@
         <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
-              <i data-feather="git-merge" width="3rem" height="3rem"></i>
+              <i class="dripicons-network-2"></i>
             </div>
             <div class="service-content">
               <h4 class="service-title"><a href="#">Illustration Design</a></h4>
@@ -368,14 +368,13 @@
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
               <img src="${pageContext.request.contextPath}/resources/images/work/w-1.jpg" alt="work">
-
             </div>
             <div class="work-overlay">
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-1.jpg"><i data-feather="plus-circle"></i>
-                  </a></li>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-1.jpg"> <i class="dripicons-plus"></i></a></li>
+                  <li><a class="image-popup"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -390,7 +389,7 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/work/w-2.jpg"><i data-feather="plus-circle" width="3rem" height="3rem"></i></a></li>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/work/w-2.jpg"><i class="dripicons-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -405,7 +404,7 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-3.jpg"><i data-feather="plus-circle" width="3rem" height="3rem"></i></a></li>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-3.jpg"><i class="dripicons-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -420,7 +419,7 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-4.jpg"><i data-feather="plus-circle" width="3rem" height="3rem"></i></a></li>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-4.jpg"><i class="dripicons-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -435,7 +434,7 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-5.jpg"><i data-feather="plus-circle" width="3rem" height="3rem"></i></a></li>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-5.jpg"><i class="dripicons-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -450,20 +449,116 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i data-feather="plus-circle" width="3rem" height="3rem"></i></a></li>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
                 </ul>
               </div>
             </div>
           </div> <!-- single work -->
         </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image">
+              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image">
+              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image">
+              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image">
+              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image">
+              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image">
+              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
       </div> <!-- row -->
+
+
+
       <div class="row">
         <div class="col-lg-12">
           <div class="work-more text-center mt-lg-5 mt-3">
-            <a class="btn btn-danger rounded-pill btn-lg" href="#">more works</a>
+            <button id="more-view" class="btn btn-danger rounded-pill btn-lg">more works</button>
           </div> <!-- work more -->
         </div>
       </div> <!-- row -->
+
+
     </div> <!-- container -->
   </section>
 
@@ -504,6 +599,9 @@
 
 <script src="${pageContext.request.contextPath}/resources/js/scrolling-nav.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.easing.min.js"></script>
+
+<!--====== modal js ======-->
+<script src="${pageContext.request.contextPath}/resources/js/waypoints.min.js"></script>
 
 <script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
 
