@@ -43,7 +43,7 @@
         <div class="header-content-right">
           <h4 class="text-danger text-uppercase">Designer</h4>
           <h1 class="title">Juyeon Choi</h1>
-          <p>UI/Interaction Designer & Publisher</p>
+          <p>UI/UX Designer & Publisher</p>
           <a class="btn btn-danger rounded-pill btn-lg" href="portfolio.jsp">View my Work</a>
         </div> <!-- header content right -->
       </div>
@@ -63,32 +63,36 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="section-title text-center">
+          <div class="section-title text-left text-lg-center">
             <h2 class="title">Experience</h2>
             <p>4년차 웹디자이너 최주연입니다.</p>
           </div> <!-- section title -->
         </div>
       </div> <!-- row -->
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 timeline-wrap mt-5">
           <ul class="timeline">
-            <li class="timeline-event aos-init aos-animate" data-aos="fade-up">
+            <div data-aos="fade-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
+            <li class="timeline-event">
               <label class="timeline-event-icon"></label>
               <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail">April 2016 - Present</p>
-                <h3>Geil,Danke! GmbH</h3>
-                <h4>eines Web-Studios</h4>
+                <p class="timeline-event-thumbnail">2020.07.01 - 현재</p>
+                <h3>SK 하이스텍</h3>
+                <h4>UI/UX Designer & Publisher</h4>
                 <p><strong>Projektmanagement mit Scrum</strong>
                   <br>Ständiges Verbessern des agilen Entwicklungsprozesses beispielsweise durch Grunt, Yeoman, GIT, JIRA und BrowserStack.</p>
               </div>
             </li>
-            <li class="timeline-event aos-init aos-animate" data-aos="fade-up" data-aos-delay=".2">
+            </div>
+            <li class="timeline-event" >
+              <div data-aos="fade-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
               <label class="timeline-event-icon"></label>
               <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail">November 2014 - Mars 2016</p>
-                <h3>Freelancer</h3>
-                <h4>Designer und Autor</h4>
+                <p class="timeline-event-thumbnail">2017.07.03 - 2020.06.25</p>
+                <h3>데상트코리아</h3>
+                <h4>UI & Web Designer</h4>
                 <p>Konzeption, Design und Produktion von Digitalen Magazinen mit InDesign, der Adobe Digital Publishing Suite und HTML5. Co-Autorin der Fachbücher "Digitales Publizieren für Tablets" und "Adobe Digital Publishing Suite" erschienen im dpunkt.verlag.</p>
+              </div>
               </div>
             </li>
             <li class="timeline-event aos-init aos-animate" data-aos="fade-up" data-aos-delay=".4">
@@ -113,7 +117,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="section-title text-center">
+          <div class="section-title text-left text-lg-center">
             <h2 class="title">About Me</h2>
             <p>4년차 웹디자이너 최주연입니다.</p>
           </div> <!-- section title -->
@@ -121,7 +125,7 @@
       </div> <!-- row -->
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="about-content mt-5 text-center">
+          <div class="about-content mt-5 text-left text-lg-center">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <ul class="clearfix">
               <li>
@@ -331,8 +335,8 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-sm-12">
-          <div class="section-title pb-25">
-            <h2 class="title text-center">Portfolio</h2>
+          <div class="section-title pb-25 ">
+            <h2 class="title text-left text-lg-center">Portfolio</h2>
             <!--<p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>-->
           </div> <!-- section title -->
         </div>

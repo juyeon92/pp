@@ -32,7 +32,7 @@
 <!--====== FOOTER PART ENDS ======-->
 
 <!--====== BACK TOP TOP PART START ======-->
-<a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+<a href="#" class="back-to-top"><i class="dripicons-chevron-up"></i></a>
 
 <!--====== BACK TOP TOP PART ENDS ======-->
 
@@ -49,8 +49,7 @@
 <!--====== filter js ======-->
 <script src="${pageContext.request.contextPath}/resources/js/filter.min.js"></script>
 
-<!--====== parallax / aos js ======-->
-<script src="${pageContext.request.contextPath}/resources/js/aos.js"></script>
+<!--====== parallax js ======-->
 
 <script src="${pageContext.request.contextPath}/resources/js/jquery.magnific-popup.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/parallax.min.js"></script>

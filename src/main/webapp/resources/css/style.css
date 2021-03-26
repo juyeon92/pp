@@ -640,37 +640,37 @@
 /*===========================
         2.experience css
 ===========================*/
-.timeline {
-  padding-left: 0;
-  list-style: none;
+timeline-wrap{
   position: relative;
+  width: 100%;
 }
 
+
 .timeline:before {
-  background-color: black;
-  content: '';
-  margin-left: -1px;
+  content: "";
+  display: block;
   position: absolute;
-  top: 0;
-  left: 2em;
-  width: 2px;
+  top: 2%;
+  left: 50%;
+  width: 1px;
   height: 100%;
+  background: #ddd;
 }
 
 .timeline-event {
+  width: 50%;
+  clear: both;
+  float: right;
   position: relative;
 }
 
-.timeline-event:hover .timeline-event-icon {
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  background-color: #db2043;
+.timeline li:nth-child(odd){
+  float: left;
+  padding-right: 65px;
+  text-align: right;
+  position: relative;
 }
 
-.timeline-event:hover .timeline-event-thumbnail {
-  box-shadow: inset 40em 0 0 0 #db2043;
-  color: #fff;
-}
 
 .timeline-event-copy {
   padding: 2em;
@@ -681,12 +681,29 @@
 }
 
 @media (max-width: 767px) {
+
+  .timeline-event{
+    width: 100%;
+  }
+
   .timeline-event-copy {
     position: inherit;
     left: 10px;
   }
 
+
   .timeline:before, .timeline-event-icon{left: 10px !important;}
+
+  .timeline li:nth-child(odd){
+    text-align: left;
+    padding-right: 0;
+  }
+
+  .timeline li:nth-child(odd) .timeline-event-icon, .timeline li:nth-child(even) .timeline-event-icon{
+    margin: 0 -1.1rem !important;
+  }
+
+
 }
 
 
@@ -707,7 +724,19 @@
   padding-bottom: 1.2em;
 }
 
-.timeline-event-icon {
+
+.timeline li:hover .timeline-event-thumbnail {
+  box-shadow: inset 40em 0 0 0 #db2043;
+  color: #fff;
+}
+
+.timeline li:hover:nth-child(even) .timeline-event-icon{
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #db2043;
+}
+
+.timeline li:nth-child(even) .timeline-event-icon {
   -webkit-transition: -webkit-transform 0.2s ease-in;
   transition: -webkit-transform 0.2s ease-in;
   transition: transform 0.2s ease-in;
@@ -715,14 +744,39 @@
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   background-color: #db2043;
-  outline: 10px solid #f3f3f3;
+  outline: 10px solid #fff;
   display: block;
-  margin: 0.5em 0.5em 0.5em -0.5em;
+  margin: 0 -0.2rem;
+  position: relative;
+  top: 5%;
   position: absolute;
-  top: 0;
-  left: 2em;
-  width: 1em;
-  height: 1em;
+  left: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.timeline li:hover:nth-child(odd) .timeline-event-icon{
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #db2043;
+}
+
+.timeline li:nth-child(odd) .timeline-event-icon {
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #db2043;
+  outline: 10px solid #fff;
+  display: block;
+  margin: 0 -0.2rem;
+  top: 5%;
+  position: absolute;
+  right: 0%;
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
 .timeline-event-thumbnail {
@@ -732,12 +786,11 @@
   -webkit-transition-delay: 0.1s;
   -webkit-transition: box-shadow 0.5s ease-in 0.1s;
   transition: box-shadow 0.5s ease-in 0.1s;
-  color: #db2043;
+  color: #fff;
   font-size: 12px;
   font-weight: bold;
   border-radius: 100px;
-  border: 1px solid #db2043;
-  /* background-color: black; */
+  background: #ccc;
   box-shadow: inset 0 0 0 0em #db2043;
   display: inline-block;
   margin-bottom: 1.2em;

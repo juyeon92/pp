@@ -36,7 +36,7 @@
 
 </head>
 
-<body>
+<body translate="no" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
 <!--====== HEADER PART START ======-->
 <header id="home" class="header-area">
     <div class="navigation fixed-top">
@@ -70,3 +70,5 @@
 
 </header>
 <!--====== HEADER PART ENDS ======-->
+
+<script src="${pageContext.request.contextPath}/resources/js/aos.js"></script>
