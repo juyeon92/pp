@@ -1,48 +1,62 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
 
-  <title>Juyeon Portfolio</title>
-
-  <!--====== Bootstrap css ======-->
-  <link href="${pageContext.request.contextPath}/resources/css/bootstrap.css" rel="stylesheet" />
-  <link href="${pageContext.request.contextPath}/resources/css/bootstrap-grid.css" rel="stylesheet"/>
-
-  <!--====== Icon css ======-->
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/dripicons/webfont.css">
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/mdiicons/css/materialdesignicons.css">
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/unicons/css/unicons.css"  />
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/fontawesome/css/font-awesome.min.css" />
-
-  <!--====== Fonts css ======-->
-  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/notokr.css">
-  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/roboto.css">
-
-  <!--====== css ======-->
-  <link href="${pageContext.request.contextPath}/resources/css/magnific-popup.css" rel="stylesheet" />
-  <link href="${pageContext.request.contextPath}/resources/css/slick.css" rel="stylesheet" />
-
-  <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" />
-  <link href="${pageContext.request.contextPath}/resources/css/common.css" rel="stylesheet" />
-
-
-
-
-</head>
-
-<body>
   <!--====== HEADER PART START ======-->
-
   <%@include file="inc-header.jsp" %>
-
   <!--====== HEADER PART ENDS ======-->
+
+  <!--====== Banner PART START ======-->
+  <div id="parallax" class="header-content d-flex align-items-center">
+  <div class="header-shape shape-one layer" data-depth="0.10">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-1.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="header-shape shape-tow layer" data-depth="0.30">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-2.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="header-shape shape-three layer" data-depth="0.40">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-3.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="header-shape shape-fore layer" data-depth="0.60">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-2.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="header-shape shape-five layer" data-depth="0.20">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-1.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="header-shape shape-six layer" data-depth="0.15">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-4.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="header-shape shape-seven layer" data-depth="0.50">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-5.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="header-shape shape-eight layer" data-depth="0.40">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-3.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="header-shape shape-nine layer" data-depth="0.20">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-6.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="header-shape shape-ten layer" data-depth="0.30">
+    <img src="${pageContext.request.contextPath}/resources/images/banner/shape/shape-3.png" alt="Shape">
+  </div> <!-- header shape -->
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-xl-5 col-lg-6">
+        <div class="header-content-right">
+          <h4 class="text-danger text-uppercase">Designer</h4>
+          <h1 class="title">Juyeon Choi</h1>
+          <p>UI/Interaction Designer & Publisher</p>
+          <a class="btn btn-danger rounded-pill btn-lg" href="portfolio.jsp">View my Work</a>
+        </div> <!-- header content right -->
+      </div>
+      <div class="col-lg-6 offset-xl-1">
+        <div class="header-image d-none d-lg-block">
+          <img src="${pageContext.request.contextPath}/resources/images/banner/hero.png" alt="hero">
+        </div> <!-- header image -->
+      </div>
+    </div> <!-- row -->
+  </div> <!-- container -->
+
+</div> <!-- header content -->
+  <!--====== Banner PART START ======-->
 
   <!--====== experience PART START ======-->
   <section id="experience" class="experience-area site-section">
@@ -95,7 +109,6 @@
   <!--====== experience PART ENDS ======-->
 
   <!--====== skill PART START ======-->
-
   <section id="about" class="about-area site-section bg-light">
     <div class="container">
       <div class="row justify-content-center">
@@ -128,26 +141,6 @@
                   </div>
                   <div class="info-text">
                     <p><span>Email:</span> choi_1114@naver.com</p>
-                  </div>
-                </div> <!-- single info -->
-              </li>
-              <li>
-                <div class="single-info d-flex align-items-center">
-                  <div class="info-icon">
-                    <i class="dripicons-phone"></i>
-                  </div>
-                  <div class="info-text">
-                    <p><span>Phone:</span> 010-5179-1114</p>
-                  </div>
-                </div> <!-- single info -->
-              </li>
-              <li>
-                <div class="single-info d-flex align-items-center">
-                  <div class="info-icon">
-                    <i class="dripicons-location"></i>
-                  </div>
-                  <div class="info-text">
-                    <p><span>Location:</span> 경기도 성남시</p>
                   </div>
                 </div> <!-- single info -->
               </li>
@@ -331,11 +324,9 @@
 
     </div> <!-- container -->
   </section>
-
   <!--====== skill PART ENDS ======-->
 
-  <!--====== WORK PART START ======-->
-
+  <!--====== portfolio PART START ======-->
   <section id="portfolio" class="portfolio-area site-section ">
     <div class="container">
       <div class="row justify-content-center">
@@ -500,51 +491,6 @@
             </div>
           </div> <!-- single work -->
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
-                <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
-                <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
-                <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
 
       </div> <!-- row -->
 
@@ -553,7 +499,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="work-more text-center mt-lg-5 mt-3">
-            <button id="more-view" class="btn btn-danger rounded-pill btn-lg">more works</button>
+            <a class="btn btn-danger rounded-pill btn-lg" href="portfolio.jsp" target="_blank">more works</a>
           </div> <!-- work more -->
         </div>
       </div> <!-- row -->
@@ -561,53 +507,14 @@
 
     </div> <!-- container -->
   </section>
-
-  <!--====== WORK PART ENDS ======-->
+  <!--====== portfolio PART ENDS ======-->
 
 
 
   <!--====== FOOTER PART START ======-->
-
   <%@include file="inc-footer.jsp" %>
-
   <!--====== FOOTER PART ENDS ======-->
 
 
 
 
-
-<!--====== jquery js ======-->
-<script src="${pageContext.request.contextPath}/resources/js/vendor/modernizr-3.6.0.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/vendor/jquery-1.12.4.min.js"></script>
-
-<!--====== Bootstrap js ======-->
-<script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/popper.min.js"></script>
-
-<!--====== filter js ======-->
-<script src="${pageContext.request.contextPath}/resources/js/filter.min.js"></script>
-
-<!--====== parallax / aos js ======-->
-<script src="${pageContext.request.contextPath}/resources/js/aos.js"></script>
-
-<script src="${pageContext.request.contextPath}/resources/js/jquery.magnific-popup.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/parallax.min.js"></script>
-
-
-<script src="${pageContext.request.contextPath}/resources/js/jquery.counterup.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/jquery.appear.min.js"></script>
-
-<script src="${pageContext.request.contextPath}/resources/js/scrolling-nav.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/jquery.easing.min.js"></script>
-
-<!--====== modal js ======-->
-<script src="${pageContext.request.contextPath}/resources/js/waypoints.min.js"></script>
-
-<script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
-
-
-
-
-</body>
-
-</html>

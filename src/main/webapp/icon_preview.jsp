@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-</head>
-<body>
+<!--====== HEADER PART START ======-->
+<%@include file="inc-header.jsp" %>
+<!--====== HEADER PART ENDS ======-->
 <div class="row icons-list-demo">
     <div class="col-sm-6 col-md-4 col-lg-3">
         <i class="dripicons-alarm"></i> dripicons-alarm
@@ -974,5 +975,7 @@
         <i class="uil uil-expand-right"></i> uil-expand-right
     </div>
 </div>
-</body>
-</html>
+
+<!--====== FOOTER PART START ======-->
+<%@include file="inc-footer.jsp" %>
+<!--====== FOOTER PART ENDS ======-->

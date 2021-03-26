@@ -37,3 +37,39 @@
 <!--====== BACK TOP TOP PART ENDS ======-->
 
 
+
+<!--====== jquery js ======-->
+<script src="${pageContext.request.contextPath}/resources/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/vendor/jquery-1.12.4.min.js"></script>
+
+<!--====== Bootstrap js ======-->
+<script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/popper.min.js"></script>
+
+<!--====== filter js ======-->
+<script src="${pageContext.request.contextPath}/resources/js/filter.min.js"></script>
+
+<!--====== parallax / aos js ======-->
+<script src="${pageContext.request.contextPath}/resources/js/aos.js"></script>
+
+<script src="${pageContext.request.contextPath}/resources/js/jquery.magnific-popup.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/parallax.min.js"></script>
+
+
+<script src="${pageContext.request.contextPath}/resources/js/jquery.counterup.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/jquery.appear.min.js"></script>
+
+<script src="${pageContext.request.contextPath}/resources/js/scrolling-nav.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/jquery.easing.min.js"></script>
+
+<!--====== modal js ======-->
+<script src="${pageContext.request.contextPath}/resources/js/waypoints.min.js"></script>
+
+<script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
