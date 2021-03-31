@@ -160,5 +160,12 @@
    // });
 
 
+    //modal 상단이동 방지
+    $('.image-popup').click (function(){
+        document.body.classList.add('no-scroll')
+    })
+
+    document.body.classList.add("no-scroll");
+    document.body.classList.remove("no-scroll");
     
 }(jQuery));

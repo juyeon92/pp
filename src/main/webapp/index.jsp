@@ -2,7 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
   <!--====== HEADER PART START ======-->
-  <%@include file="inc-header.jsp" %>
+  <%@include file="inc/inc-header.jsp" %>
   <!--====== HEADER PART ENDS ======-->
 
   <!--====== Banner PART START ======-->
@@ -368,7 +368,7 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-1.jpg"> <i class="dripicons-plus"></i></a></li>
+                  <li><a class="image-popup" data-toggle="modal" data-target="#exampleModal"> <i class="dripicons-plus"></i></a></li>
                   <li><a class="image-popup"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
@@ -516,7 +516,7 @@
 
 
   <!--====== FOOTER PART START ======-->
-  <%@include file="inc-footer.jsp" %>
+  <%@include file="inc/inc-footer.jsp" %>
   <!--====== FOOTER PART ENDS ======-->
 
 

@@ -50,8 +50,6 @@
 <script src="${pageContext.request.contextPath}/resources/js/filter.min.js"></script>
 
 <!--====== parallax js ======-->
-
-<script src="${pageContext.request.contextPath}/resources/js/jquery.magnific-popup.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/parallax.min.js"></script>
 
 
@@ -66,7 +64,7 @@
 
 <script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
 
-
+<%@include file="/inc/inc-modal.jsp" %>
 
 
 </body>

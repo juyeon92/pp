@@ -25,7 +25,6 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/roboto.css">
 
     <!--====== css ======-->
-    <link href="${pageContext.request.contextPath}/resources/css/magnific-popup.css" rel="stylesheet" />
     <link href="${pageContext.request.contextPath}/resources/css/slick.css" rel="stylesheet" />
 
     <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" />

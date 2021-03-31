@@ -704,3 +704,15 @@ input[type="button"], input[type="submit"] {cursor: pointer; -webkit-appearance:
   border-radius: 0 0.35rem 0.35rem 0;
 }
 
+
+/*modal*/
+
+.no-scroll{
+  height: 100%;
+  overflow: hidden;
+}
+
+body.modal-open {
+  overflow: hidden;
+  height: 100%;
+}

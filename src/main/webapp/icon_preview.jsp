@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <!--====== HEADER PART START ======-->
-<%@include file="inc-header.jsp" %>
+<%@include file="inc/inc-header.jsp" %>
 <!--====== HEADER PART ENDS ======-->
 <div class="row icons-list-demo">
     <div class="col-sm-6 col-md-4 col-lg-3">
@@ -977,5 +977,5 @@
 </div>
 
 <!--====== FOOTER PART START ======-->
-<%@include file="inc-footer.jsp" %>
+<%@include file="inc/inc-footer.jsp" %>
 <!--====== FOOTER PART ENDS ======-->

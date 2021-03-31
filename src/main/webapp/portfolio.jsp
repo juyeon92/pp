@@ -2,7 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <!--====== HEADER PART START ======-->
-<%@include file="inc-header2.jsp" %>
+<%@include file="inc/inc-header2.jsp" %>
 <!--====== HEADER PART ENDS ======-->
 
 
@@ -179,7 +179,7 @@
 
 
 <!--====== FOOTER PART START ======-->
-<%@include file="inc-footer.jsp" %>
+<%@include file="inc/inc-footer.jsp" %>
 <!--====== FOOTER PART ENDS ======-->
 
 
