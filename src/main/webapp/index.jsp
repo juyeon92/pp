@@ -368,7 +368,7 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" data-toggle="modal" data-target="#staticBackdrop" > <i class="dripicons-plus"></i></a></li>
+                  <li><a class="image-popup" data-bs-toggle="modal" data-bs-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
                   <li><a class="image-popup"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
