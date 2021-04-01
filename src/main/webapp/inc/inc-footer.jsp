@@ -43,7 +43,8 @@
 <script src="${pageContext.request.contextPath}/resources/js/vendor/jquery-1.12.4.min.js"></script>
 
 <!--====== Bootstrap js ======-->
-<script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/bootstrap.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/bootstrap.bundle.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/popper.min.js"></script>
 
 <!--====== filter js ======-->
