@@ -358,7 +358,7 @@
         </div>
       </div><!-- row -->
 
-      <div class="row portfolio_item_wrap ">
+      <div class="row portfolio_item_wrap">
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
@@ -368,7 +368,7 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
+                  <li><a class="image-popup" data-toggle="modal" data-target="#staticBackdrop" > <i class="dripicons-plus"></i></a></li>
                   <li><a class="image-popup"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
