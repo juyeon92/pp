@@ -645,7 +645,6 @@ timeline-wrap{
   width: 100%;
 }
 
-
 .timeline:before {
   content: "";
   display: block;
@@ -676,9 +675,11 @@ timeline-wrap{
   padding: 2em;
   position: relative;
   top: -1.875em;
-  left: 4em;
+  left: 2rem;
   width: 100%;
 }
+
+
 
 @media (max-width: 767px) {
 
@@ -711,10 +712,6 @@ timeline-wrap{
   font-size: 1.75em;
 }
 
-.timeline-event-copy h4 {
-  font-size: 1.2em;
-  margin-bottom: 1.2em;
-}
 
 .timeline-event-copy strong {
   font-weight: 700;
@@ -797,6 +794,8 @@ timeline-wrap{
   padding: 0.25em 1em 0.2em 1em;
 }
 
+.list-box span:before{content: "·"; font-weight: bold; margin-right: 5px;}
+.list-box2 span:before{content: "·"; font-weight: bold; right: 22px; position: absolute;}
 
 /*===========================
         3.about css

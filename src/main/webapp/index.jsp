@@ -72,37 +72,57 @@
       <div class="row">
         <div class="col-12 timeline-wrap mt-5">
           <ul class="timeline">
-            <div data-aos="fade-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
+
             <li class="timeline-event">
               <label class="timeline-event-icon"></label>
+
+              <div data-aos="fade-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
               <div class="timeline-event-copy">
                 <p class="timeline-event-thumbnail">2020.07.01 - 현재</p>
                 <h3>SK 하이스텍</h3>
-                <h4>UI/UX Designer & Publisher</h4>
-                <p><strong>Projektmanagement mit Scrum</strong>
-                  <br>Ständiges Verbessern des agilen Entwicklungsprozesses beispielsweise durch Grunt, Yeoman, GIT, JIRA und BrowserStack.</p>
+                <h5>UI/UX Designer & Publisher</h5>
+                <div class="list-box2">
+                  <span class="d-block">공무원 이벤트 페이지 제작</span>
+                  <span class="d-block">내외부 광고 배너 제작</span>
+                  <span class="d-block">온/오프 광고 배너 제작</span>
+                </div>
+              </div>
               </div>
             </li>
-            </div>
+
+
             <li class="timeline-event" >
-              <div data-aos="fade-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
               <label class="timeline-event-icon"></label>
+
+              <div data-aos="fade-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
               <div class="timeline-event-copy">
                 <p class="timeline-event-thumbnail">2017.07.03 - 2020.06.25</p>
                 <h3>데상트코리아</h3>
-                <h4>UI & Web Designer</h4>
-                <p>Konzeption, Design und Produktion von Digitalen Magazinen mit InDesign, der Adobe Digital Publishing Suite und HTML5. Co-Autorin der Fachbücher "Digitales Publizieren für Tablets" und "Adobe Digital Publishing Suite" erschienen im dpunkt.verlag.</p>
+                <h5>UI & Web Designer</h5>
+                <div class="list-box">
+                  <span class="d-block">자사몰 업데이트 관리 및 UI 리뉴얼</span>
+                  <span class="d-block">자사몰 기획전/이벤트 디자인 및 코딩</span>
+                  <span class="d-block">내외부 광고 배너 제작</span>
+                  <span class="d-block">SNS, 메일마케팅 디자인</span>
+                </div>
               </div>
               </div>
             </li>
-            <li class="timeline-event aos-init aos-animate" data-aos="fade-up" data-aos-delay=".4">
+
+            <li class="timeline-event aos-init ">
               <label class="timeline-event-icon"></label>
+
+              <div data-aos="fade-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
               <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail">April 2014</p>
-                <h3>konplan gmbh</h3>
-                <h4>IT-Consultant</h4>
-                <p><strong>Systemarchitektur, Consulting</strong>
-                  <br>Konzeption und Modellierung von Systemen und APIs für Digital Publishing und Entitlement nach SOA</p>
+                <p class="timeline-event-thumbnail">2016.01 ~ 2016.06</p>
+                <h3>해커스 어학원</h3>
+                <h5>Web Designer</h5>
+                <div class="list-box2">
+                  <span class="d-block">공무원 이벤트 페이지 제작</span>
+                  <span class="d-block">내외부 광고 배너 제작</span>
+                  <span class="d-block">온/오프 광고 배너 제작</span>
+                </div>
+              </div>
               </div>
             </li>
           </ul>
@@ -126,7 +146,15 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="about-content mt-5 text-left text-lg-center">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <div data-aos="fade-down" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
+            <p>
+              웹/모바일 UI 디자이너로서 더 나은 사용자 UX 제공을 위해<br>
+              CSS 및 Javascript를 활용해 다양한 인터랙션을 제공해 왔습니다.
+            </p>
+            </div>
+
+          <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
             <ul class="clearfix">
               <li>
                 <div class="single-info d-flex align-items-center">
@@ -149,9 +177,12 @@
                 </div> <!-- single info -->
               </li>
             </ul>
+          </div>
+
           </div> <!-- about content -->
         </div>
         <div class="col-lg-6 col-sm-12">
+          <div data-aos="fade-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="about-skills pt-3">
             <div class="skill-item mt-3">
               <div class="skill-header">
@@ -202,8 +233,10 @@
               </div>
             </div> <!-- skill item -->
           </div> <!-- about skills -->
+          </div>
         </div>
         <div class="col-lg-6 col-sm-12">
+          <div data-aos="fade-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="about-skills pt-3">
             <div class="skill-item mt-3">
               <div class="skill-header">
@@ -254,11 +287,14 @@
               </div>
             </div> <!-- skill item -->
           </div> <!-- about skills -->
+          </div>
         </div>
       </div> <!-- row -->
 
       <div class="row justify-content-center">
+
         <div class="col-lg-4 col-md-6 col-sm-8">
+          <div data-aos="flip-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
               <i class="dripicons-monitor"></i>
@@ -268,8 +304,11 @@
               <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
             </div>
           </div> <!-- single service -->
+          </div>
         </div>
+
         <div class="col-lg-4 col-md-6 col-sm-8">
+          <div data-aos="flip-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
               <i class="dripicons-device-tablet"></i>
@@ -279,8 +318,11 @@
               <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
             </div>
           </div> <!-- single service -->
+          </div>
         </div>
+
         <div class="col-lg-4 col-md-6 col-sm-8">
+          <div data-aos="flip-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
               <i class="dripicons-code"></i>
@@ -290,8 +332,11 @@
               <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
             </div>
           </div> <!-- single service -->
+          </div>
         </div>
+
         <div class="col-lg-4 col-md-6 col-sm-8">
+          <div data-aos="flip-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
               <i class="fa fa-object-group"></i>
@@ -301,8 +346,11 @@
               <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
             </div>
           </div> <!-- single service -->
+          </div>
         </div>
+
         <div class="col-lg-4 col-md-6 col-sm-8">
+          <div data-aos="flip-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
               <i class="dripicons-browser"></i>
@@ -312,8 +360,11 @@
               <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
             </div>
           </div> <!-- single service -->
+          </div>
         </div>
+
         <div class="col-lg-4 col-md-6 col-sm-8">
+          <div data-aos="flip-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
               <i class="dripicons-network-2"></i>
@@ -323,7 +374,9 @@
               <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
             </div>
           </div> <!-- single service -->
+          </div>
         </div>
+
       </div> <!-- row -->
 
     </div> <!-- container -->

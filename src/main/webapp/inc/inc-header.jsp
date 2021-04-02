@@ -14,6 +14,9 @@
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap.css" rel="stylesheet" />
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap-grid.css" rel="stylesheet"/>
 
+    <!--====== aos css ======-->
+    <link href="${pageContext.request.contextPath}/resources/css/aos.css" rel="stylesheet">
+
     <!--====== Icon css ======-->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/dripicons/webfont.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/icons/mdiicons/css/materialdesignicons.css">
