@@ -368,8 +368,8 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
-                  <li><a class="image-popup"><i class="dripicons-link"></i></a></li>
+                  <li><a data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
+                  <li><a><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -384,7 +384,7 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/work/w-2.jpg"><i class="dripicons-plus"></i></a></li>
+                  <li><a data-toggle="modal" data-target="#exampleModal2" ><i class="dripicons-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -399,7 +399,7 @@
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-3.jpg"><i class="dripicons-plus"></i></a></li>
+                  <li><a href="${pageContext.request.contextPath}/resources/images/work/w-3.jpg"><i class="dripicons-plus"></i></a></li>
                 </ul>
               </div>
             </div>

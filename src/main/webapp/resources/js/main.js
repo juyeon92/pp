@@ -1,6 +1,6 @@
 
 
-$(document).ready(function(){
+(function($){
 
     "use strict";
 
@@ -91,15 +91,6 @@ $(document).ready(function(){
     });
 
 
-    //===== Magnific Popup
-
-    $('.image-popup').magnificPopup({
-      type: 'image',
-      gallery:{
-        enabled:true
-      }
-    });
-
 
     //===== Back to top
 
@@ -160,14 +151,9 @@ $(document).ready(function(){
    // });
 
 
-    $('#exampleModal').modal().on('shown', function(){
-        $('body').css('overflow', 'hidden');
-    }).on('hidden', function(){
-        $('body').css('overflow', 'auto');
-    });
 
 
 
-});
+}(jQuery));
 
 
