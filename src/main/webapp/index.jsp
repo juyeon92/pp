@@ -145,17 +145,17 @@
       </div> <!-- row -->
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="about-content mt-5 text-left text-lg-center">
+          <div class="about-content mt-4 text-left text-lg-center">
 
             <div data-aos="fade-down" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
             <p>
-              웹/모바일 UI 디자이너로서 더 나은 사용자 UX 제공을 위해<br>
-              CSS 및 Javascript를 활용해 다양한 인터랙션을 제공해 왔습니다.
+              웹/모바일 UI/UX 디자이너로서 Photoshop, Adobe XD, Zeplin 등을 활용한 UI 디자인 뿐만아니라<br>
+              더 나은 사용자 UX 제공을 위해 CSS, HTML, JavaScript를 활용한 인터랙션 디자인을 제공해 왔습니다.
             </p>
             </div>
 
           <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
-            <ul class="clearfix">
+            <ul class="clearfix pt-4">
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
@@ -218,7 +218,7 @@
             </div> <!-- skill item -->
             <div class="skill-item mt-3">
               <div class="skill-header">
-                <h6 class="skill-title">JAVA Script</h6>
+                <h6 class="skill-title">JavaScript</h6>
                 <div class="skill-percentage">
                   <div class="count-box counted">
                     <span class="counter">80</span>
@@ -272,7 +272,7 @@
             </div> <!-- skill item -->
             <div class="skill-item mt-3">
               <div class="skill-header">
-                <h6 class="skill-title">Sketch</h6>
+                <h6 class="skill-title">Zeplin</h6>
                 <div class="skill-percentage">
                   <div class="count-box counted">
                     <span class="counter">80</span>
@@ -328,7 +328,7 @@
               <i class="dripicons-code"></i>
             </div>
             <div class="service-content">
-              <h4 class="service-title"><a href="#">Development</a></h4>
+              <h4 class="service-title"><a href="#">Publishing</a></h4>
               <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
             </div>
           </div> <!-- single service -->
