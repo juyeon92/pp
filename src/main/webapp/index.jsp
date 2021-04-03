@@ -65,7 +65,7 @@
         <div class="col-lg-8">
           <div class="section-title text-left text-lg-center">
             <h2 class="title">Experience</h2>
-            <p>4년차 웹디자이너 최주연입니다.</p>
+            <p>2016년 웹 이벤트 디자인을 시작으로 UI/UX디자인 및 퍼블리셔로서 커리어를 쌓아왔습니다.</p>
           </div> <!-- section title -->
         </div>
       </div> <!-- row -->
@@ -82,9 +82,10 @@
                 <h3>SK 하이스텍</h3>
                 <h5>UI/UX Designer & Publisher</h5>
                 <div class="list-box2">
-                  <span class="d-block">공무원 이벤트 페이지 제작</span>
-                  <span class="d-block">내외부 광고 배너 제작</span>
-                  <span class="d-block">온/오프 광고 배너 제작</span>
+                  <span class="d-block">반응형 웹사이트 구축 (HTML/JSP)</span>
+                  <span class="d-block">웹 접근성 코딩 (매년 갱신)</span>
+                  <span class="d-block">내부 사이트 개편/리뉴얼 (기획/디자인/퍼블)</span>
+                  <span class="d-block">사이트 업데이트 및 유지보수 (SVN/VPN활용)</span>
                 </div>
               </div>
               </div>
@@ -101,7 +102,7 @@
                 <h5>UI & Web Designer</h5>
                 <div class="list-box">
                   <span class="d-block">자사몰 업데이트 관리 및 UI 리뉴얼</span>
-                  <span class="d-block">자사몰 기획전/이벤트 디자인 및 코딩</span>
+                  <span class="d-block">자사몰 기획전/이벤트 디자인 및 코딩(HTML/CSS)</span>
                   <span class="d-block">내외부 광고 배너 제작</span>
                   <span class="d-block">SNS, 메일마케팅 디자인</span>
                 </div>
@@ -114,7 +115,7 @@
 
               <div data-aos="fade-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
               <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail">2016.01 ~ 2016.06</p>
+                <p class="timeline-event-thumbnail">2016.01.18 ~ 2016.06.24</p>
                 <h3>해커스 어학원</h3>
                 <h5>Web Designer</h5>
                 <div class="list-box2">
@@ -125,6 +126,24 @@
               </div>
               </div>
             </li>
+
+            <li class="timeline-event aos-init ">
+              <label class="timeline-event-icon"></label>
+
+              <div data-aos="fade-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">2011.03 ~ 2016.02</p>
+                  <h3>연세대학교</h3>
+                  <h5>시각디자인과 졸업</h5>
+                  <div class="list-box">
+                    <span class="d-block">2013 - 연세대학교 시각디자인 영상소모임 MOV 회장 전임</span>
+                    <span class="d-block">2014 - T-아카데미 UX/UI과정 수료, kipfa주관 HTML/CSS과정 수료</span>
+                    <span class="d-block">2015 - 제 11회 시각디자인 졸업전시 홈페이지 제작</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+
           </ul>
         </div>
       </div>
@@ -139,7 +158,7 @@
         <div class="col-lg-8">
           <div class="section-title text-left text-lg-center">
             <h2 class="title">About Me</h2>
-            <p>4년차 웹디자이너 최주연입니다.</p>
+            <p>4년차 UI/UX 디자이너 최주연입니다.</p>
           </div> <!-- section title -->
         </div>
       </div> <!-- row -->
@@ -169,7 +188,7 @@
               <li>
                 <div class="single-info d-flex align-items-center">
                   <div class="info-icon">
-                    <i class="dripicons-mail"></i>
+                    <i class="mdi mdi-email-outline"></i>
                   </div>
                   <div class="info-text">
                     <p><span>Email:</span> choi_1114@naver.com</p>
@@ -293,89 +312,75 @@
 
       <div class="row justify-content-center">
 
-        <div class="col-lg-4 col-md-6 col-sm-8">
+        <div class="col-lg-3 col-md-6 col-sm-8">
           <div data-aos="flip-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-service text-center mt-3 mt-lg-5">
-            <div class="service-icon text-danger mb-3">
-              <i class="dripicons-monitor"></i>
+            <div class="service-icon text-danger mb-4">
+              <i class="mdi mdi-devices"></i>
             </div>
             <div class="service-content">
-              <h4 class="service-title"><a href="#">Web Design</a></h4>
-              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+              <h4 class="service-title">Web/Mobile Design</h4>
+              <p>
+                반응형 웹사이트 제작<br>
+                자사 사이트 UI 관리 (10개)
+              </p>
             </div>
           </div> <!-- single service -->
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-8">
+        <div class="col-lg-3 col-md-6 col-sm-8">
           <div data-aos="flip-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
-          <div class="single-service text-center mt-3 mt-lg-5">
-            <div class="service-icon text-danger mb-3">
-              <i class="dripicons-device-tablet"></i>
-            </div>
-            <div class="service-content">
-              <h4 class="service-title"><a href="#">Mobile Design</a></h4>
-              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
-            </div>
-          </div> <!-- single service -->
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-8">
-          <div data-aos="flip-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
               <i class="dripicons-code"></i>
             </div>
             <div class="service-content">
-              <h4 class="service-title"><a href="#">Publishing</a></h4>
-              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+              <h4 class="service-title">Publishing</h4>
+              <p>
+                웹접근성 코딩<br>
+                인터랙션 액션 코딩
+              </p>
             </div>
           </div> <!-- single service -->
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-8">
-          <div data-aos="flip-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
-          <div class="single-service text-center mt-3 mt-lg-5">
-            <div class="service-icon text-danger mb-3">
-              <i class="fa fa-object-group"></i>
-            </div>
-            <div class="service-content">
-              <h4 class="service-title"><a href="#contact">Graphic Design</a></h4>
-              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
-            </div>
-          </div> <!-- single service -->
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-8">
+        <div class="col-lg-3 col-md-6 col-sm-8">
           <div data-aos="flip-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-service text-center mt-3 mt-lg-5">
             <div class="service-icon text-danger mb-3">
               <i class="dripicons-browser"></i>
             </div>
             <div class="service-content">
-              <h4 class="service-title"><a href="#">Web Contents Design</a></h4>
-              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+              <h4 class="service-title">Brand Event Design</h4>
+              <p>
+                기획전/이벤트 디자인<br>
+                내외부 광고 제작(SNS, 배너 등)
+              </p>
             </div>
           </div> <!-- single service -->
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-8">
+        <div class="col-lg-3 col-md-6 col-sm-8">
           <div data-aos="flip-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
-          <div class="single-service text-center mt-3 mt-lg-5">
-            <div class="service-icon text-danger mb-3">
-              <i class="dripicons-network-2"></i>
-            </div>
-            <div class="service-content">
-              <h4 class="service-title"><a href="#">Illustration Design</a></h4>
-              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
-            </div>
-          </div> <!-- single service -->
+            <div class="single-service text-center mt-3 mt-lg-5">
+              <div class="service-icon text-danger mb-4">
+                <i class="mdi mdi-office-building"></i>
+              </div>
+              <div class="service-content">
+                <h4 class="service-title">Branding</h4>
+                <p>
+                  매거진/브로슈어/E-Magazine<br>
+                  Logo 디자인
+                </p>
+              </div>
+            </div> <!-- single service -->
           </div>
         </div>
+
+
 
       </div> <!-- row -->
 

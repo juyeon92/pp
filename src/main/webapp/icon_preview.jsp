@@ -617,6 +617,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <h5 class="mt-5 d-block w-100">MaterialDesignIcon</h5>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6"><i class="mdi mdi-face">face</i></div>
+                <div class="col-xl-3 col-lg-4 col-sm-6"><i class="mdi mdi-face-outline">face-outline</i></div>
+
                 <div class="col-xl-3 col-lg-4 col-sm-6"><i class="mdi mdi-application-cog"></i><span>mdi-application-cog</span></div>
                 <div class="col-xl-3 col-lg-4 col-sm-6"><i class="mdi mdi-application-settings"></i><span>mdi-application-settings</span></div>
                 <div class="col-xl-3 col-lg-4 col-sm-6"><i class="mdi mdi-arrow-bottom-left-thin-circle-outline"></i><span>mdi-arrow-bottom-left-thin-circle-outline</span></div>
