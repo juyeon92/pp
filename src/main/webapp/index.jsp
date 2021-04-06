@@ -44,7 +44,7 @@
           <h4 class="text-danger text-uppercase">Designer</h4>
           <h1 class="title">Juyeon Choi</h1>
           <p>UI/UX Designer & Publisher</p>
-          <a class="btn btn-danger rounded-pill btn-lg" href="portfolio.jsp">View my Work</a>
+          <a class="btn btn-danger rounded-pill btn-lg slide-right" href="portfolio.jsp">View my Work</a>
         </div> <!-- header content right -->
       </div>
       <div class="col-lg-6 offset-xl-1">
@@ -71,7 +71,12 @@
       </div> <!-- row -->
       <div class="row">
         <div class="col-12 timeline-wrap mt-5">
+
+
           <ul class="timeline">
+
+            <span class="default-line"></span>
+            <span class="draw-line"></span>
 
             <li class="timeline-event">
               <label class="timeline-event-icon"></label>
@@ -352,7 +357,7 @@
             <div class="service-icon text-danger mb-3">
               <i class="dripicons-browser"></i>
             </div>
-            <div class="service-content">
+            <div class="service-content tracking-in-expand">
               <h4 class="service-title">Brand Event Design</h4>
               <p>
                 기획전/이벤트 디자인<br>
@@ -404,10 +409,10 @@
           <ul class="portfolio_filter">
             <li class="on"><a href="javascript:void(0)" data-filter="*">All</a></li>
             <li>
-              <a href="javascript:void(0)" data-filter=".event">Event</a>
+              <a href="javascript:void(0)" data-filter=".site">Site</a>
             </li>
             <li>
-              <a href="javascript:void(0)" data-filter=".site">Site</a>
+              <a href="javascript:void(0)" data-filter=".event">Event</a>
             </li>
             <li>
               <a href="javascript:void(0)" data-filter=".brand">Branding</a>
@@ -417,14 +422,14 @@
       </div><!-- row -->
 
       <div class="row portfolio_item_wrap">
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-1.jpg" alt="work">
+              <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_thum.jpg" alt="work">
             </div>
             <div class="work-overlay">
               <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
+                <h3 class="work-title">Buiseness Site</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
                   <li><a><i class="dripicons-link"></i></a></li>
@@ -561,7 +566,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="work-more text-center mt-lg-5 mt-3">
-            <a class="btn btn-danger rounded-pill btn-lg" href="portfolio.jsp" target="_blank">more works</a>
+            <a class="btn btn-danger rounded-pill btn-lg slide-right" href="portfolio.jsp" target="_blank">more works</a>
           </div> <!-- work more -->
         </div>
       </div> <!-- row -->

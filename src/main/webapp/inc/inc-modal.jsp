@@ -11,25 +11,7 @@
                 <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="container">
-                    <div class="row justify-content-center">
-                    <div class="col-md-8 col-sm-12">
-                        <h2>Geschäfts Eines<br> Web-Studios</h2>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
-                        <br>
-                        <div class="text-center">
-                            <img src="${pageContext.request.contextPath}/resources/images/work/w-3.jpg" alt="" class="img-responsive">
-                        </div>
-                            <br>
-                        <br>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
-                        <br>
-                        <br>
-                    </div>
-                    </div>
-                </div>
+                <%@include file="site-work1.jsp" %>
             </div>
             <div class="modal-footer">
                 <div class="row justify-content-center w-100">

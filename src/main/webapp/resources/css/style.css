@@ -637,15 +637,42 @@
           background-color: #db2043;
           border-color: #db2043; }
 
+
+
+
+
+
 /*===========================
         2.experience css
 ===========================*/
+
+.default-line {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  background: #eee;
+  height: 100%;
+}
+
+.draw-line {
+  width: 1px;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  background: #c82333;
+}
+
+
+
+
+
 timeline-wrap{
   position: relative;
   width: 100%;
 }
 
-.timeline:before {
+/*.timeline:before {
   content: "";
   display: block;
   position: absolute;
@@ -654,7 +681,7 @@ timeline-wrap{
   width: 1px;
   height: 100%;
   background: #ddd;
-}
+}*/
 
 .timeline-event {
   width: 50%;
@@ -1013,7 +1040,7 @@ timeline-wrap{
     width: 100%;
     height: 100%;
     background-color: #db2043;
-    opacity: 0;
+    opacity: 0.9 !important;
     visibility: hidden;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -1151,7 +1178,64 @@ timeline-wrap{
   position: relative;
 }
 
-.portfolio_item{}
+/*portfolio sub*/
+.sub-ban {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.sub-page {
+  position: absolute;
+  top: 0;
+  padding-top: 145px;
+}
+.sub-page span, .sub-page h3 {
+  color: #fff;
+}
+.sub-page h3:before {
+  content: '';
+  display: block;
+  background: #fff;
+  width: 30px;
+  height: 2px;
+  right: -49.5%;
+  position: relative;
+  margin-bottom: 15px;
+}
+.detail, .txt1 {
+  padding: 0;
+}
+.port_date, .port_client, .port_hash {
+  font-size: 13px;
+  font-weight: 400;
+  padding-right: 16px;
+}
+.port_date::before {
+  content: "update";
+  font-weight: 700;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+.port_client::before {
+  content: "client";
+  font-weight: 700;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+.port_hash::before {
+  content: "keywords";
+  font-weight: 700;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+.Detailbox {
+  -webkit-box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+}
+
+
+
+
 
 /*===========================
        8.CONTACT css 

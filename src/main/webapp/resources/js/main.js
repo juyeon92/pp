@@ -153,6 +153,36 @@
 
     AOS.init();
 
+//timeline Draw
+    var
+        greyLine = $('.default-line'),
+        lineToDraw = $('.draw-line');
+
+    if(lineToDraw.length) {
+        $(window).on('scroll', function () {
+
+            // Need to constantly get '.draw-line' height to compare against '.default-line'
+            var line = lineToDraw.height(),
+                greyLineHeight = greyLine.height(),
+                windowDistance = $(window).scrollTop(),
+                windowHeight = $(window).height() / 2,
+                timelineDistance = $(".timeline-wrap").offset().top;
+
+            if(windowDistance >= timelineDistance - windowHeight) {
+                line = windowDistance - timelineDistance + windowHeight;
+
+                if(line <= greyLineHeight) {
+                    lineToDraw.css({
+                        'height' : line + 20 + 'px'
+                    });
+                }
+            }
+
+        });
+    }
+
+
+
 
 }(jQuery));
 
