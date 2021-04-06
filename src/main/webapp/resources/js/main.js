@@ -166,7 +166,7 @@
                 greyLineHeight = greyLine.height(),
                 windowDistance = $(window).scrollTop(),
                 windowHeight = $(window).height() / 2,
-                timelineDistance = $(".timeline-wrap").offset().top;
+                timelineDistance = $(".timeline").offset().top;
 
             if(windowDistance >= timelineDistance - windowHeight) {
                 line = windowDistance - timelineDistance + windowHeight;
