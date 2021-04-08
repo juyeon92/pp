@@ -422,9 +422,9 @@
       </div><!-- row -->
 
       <div class="row portfolio_item_wrap">
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site">
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site ">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
+            <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_thum.jpg" alt="work">
             </div>
             <div class="work-overlay">
