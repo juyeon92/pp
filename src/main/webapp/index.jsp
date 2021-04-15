@@ -441,7 +441,7 @@
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-2.jpg" alt="work">
+              <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
               <div class="work-content">
