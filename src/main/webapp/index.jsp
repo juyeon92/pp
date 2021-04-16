@@ -445,39 +445,10 @@
             </div>
             <div class="work-overlay">
               <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
+                <h3 class="work-title">Community Site</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal2" ><i class="dripicons-plus"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-3.jpg" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
-                <ul>
-                  <li><a href="${pageContext.request.contextPath}/resources/images/work/w-3.jpg"><i class="dripicons-plus"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-4.jpg" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
-                <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-4.jpg"><i class="dripicons-plus"></i></a></li>
+                  <li><a href="02.community.jsp" target="_blank"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -486,13 +457,45 @@
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-5.jpg" alt="work">
+              <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-5.jpg"><i class="dripicons-plus"></i></a></li>
+                  <li><a data-toggle="modal" data-target="#exampleModal3" ><i class="dripicons-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image">
+              <img src="${pageContext.request.contextPath}/resources/images/work/site/04.site_thum.png" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a data-toggle="modal" data-target="#exampleModal4" ><i class="dripicons-plus"></i></a></li>
+                  <li><a href="https://www.munsingwear.co.kr/index.do?netFunnelYn=N" target="_blank"><i class="dripicons-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image shadow-sm">
+              <img src="${pageContext.request.contextPath}/resources/images/work/event/05.event_thum.png" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a data-toggle="modal" data-target="#exampleModal5" ><i class="dripicons-plus"></i></a></li>
+                  <li><a href="https://shop.descentekorea.co.kr/event/detail.do?seq=53482" target="_blank"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -501,58 +504,14 @@
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
+              <img src="${pageContext.request.contextPath}/resources/images/work/event/06.event_thum.png" alt="work">
             </div>
             <div class="work-overlay">
               <div class="work-content">
                 <h3 class="work-title">Product Design</h3>
                 <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
-                <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
-                <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/w-6.jpg" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
-                <ul>
-                  <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-6.jpg"><i class="dripicons-plus"></i></a></li>
+                  <li><a data-toggle="modal" data-target="#exampleModal6" ><i class="dripicons-plus"></i></a></li>
+                  <li><a href="https://shop.descentekorea.co.kr/event/detail.do?seq=36220" target="_blank"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>

@@ -3,9 +3,9 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_bg.jpg" width="100%" height="300px" alt="기업 소개  사이트 배경">
+    <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_bg.jpg" width="100%" height="300px" alt="기업 소개  사이트 배경">
     <div class="sub-page text-center">
-        <span class="pb-4 d-block">커뮤니티 사이트</span>
+        <span class="pb-4 d-block">사용자 친화 기능을 중점으로 한 커뮤니티</span>
         <h3>커뮤니티  사이트</h3>
     </div>
 </div>
@@ -20,10 +20,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <p class="txt1">
-                    사업영역, 기업개요, 게시판, 기술문서 다운 등 사업 소개 및 홍보 사이트입니다.
+                    답글, 댓글, 좋아요/싫어요, 신고, 닉네임, 비밀글 등의 사용자 친화 기능을 중점으로 한
+                    커뮤니티 사이트 구축 진행
                 </p>
-                <p class="detail"><b class="port_date">2021.06(예정)</b><b class="port_client">SK 계열사</b></p>
-                <p class="detail"><b class="port_hash">#웹 / #반응형 / #다국어 / #java / #jsp</b></p>
+                <p class="detail"><b class="port_date">2021.04</b><b class="port_client">Sk계열사 노동조합</b></p>
+                <p class="detail"><b class="port_hash">#인터랙션디자인 / #html5 / #css / #java / #spring / #jsp </b></p>
             </div>
         </div>
     </div>
@@ -62,7 +63,7 @@
     </div>
 </div>
 
-<div class="site-section bg-light">
+<div class="site-section">
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_sub4.png" alt="커뮤니티 사이트 서브페이지5">

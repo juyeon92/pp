@@ -22,7 +22,7 @@
                 <p class="txt1">
                     사업영역, 기업개요, 게시판, 기술문서 다운 등 사업 소개 및 홍보 사이트입니다.
                 </p>
-                <p class="detail"><b class="port_date">2021.06(예정)</b><b class="port_client">SK 계열사</b></p>
+                <p class="detail"><b class="port_date">2021.06</b><b class="port_client">SK 계열사</b></p>
                 <p class="detail"><b class="port_hash">#웹 / #반응형 / #다국어 / #java / #jsp</b></p>
             </div>
         </div>

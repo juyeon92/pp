@@ -35,17 +35,17 @@
     </div><!-- row -->
 
     <div class="row portfolio_item_wrap ">
-      <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
+      <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site ">
         <div class="single-work text-center mt-lg-5 mt-3">
-          <div class="work-image">
-            <img src="${pageContext.request.contextPath}/resources/images/work/w-1.jpg" alt="work">
+          <div class="work-image shadow-sm">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_thum.jpg" alt="work">
           </div>
           <div class="work-overlay">
             <div class="work-content">
-              <h3 class="work-title">Product Design</h3>
+              <h3 class="work-title">Buiseness Site</h3>
               <ul>
-                <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/images/work/w-1.jpg"> <i class="dripicons-plus"></i></a></li>
-                <li><a class="image-popup"><i class="dripicons-link"></i></a></li>
+                <li><a data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
+                <li><a><i class="dripicons-link"></i></a></li>
               </ul>
             </div>
           </div>
@@ -54,13 +54,14 @@
       <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site">
         <div class="single-work text-center mt-lg-5 mt-3">
           <div class="work-image">
-            <img src="${pageContext.request.contextPath}/resources/images/work/w-2.jpg" alt="work">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_thum.png" alt="work">
           </div>
           <div class="work-overlay">
             <div class="work-content">
-              <h3 class="work-title">Product Design</h3>
+              <h3 class="work-title">Community Site</h3>
               <ul>
-                <li><a class="image-popup" href="${pageContext.request.contextPath}/resources/work/w-2.jpg"><i class="dripicons-plus"></i></a></li>
+                <li><a data-toggle="modal" data-target="#exampleModal2" ><i class="dripicons-plus"></i></a></li>
+                <li><a href="02.community.jsp" target="_blank"><i class="dripicons-link"></i></a></li>
               </ul>
             </div>
           </div>
