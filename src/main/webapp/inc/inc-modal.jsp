@@ -146,3 +146,27 @@
     </div>
 </div>
 <!-- //pp 6sample -->
+
+<!-- pp 6sample -->
+<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel7">Portfolio work2</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <%@include file="site-work7.jsp" %>
+            </div>
+            <div class="modal-footer">
+                <div class="row justify-content-center w-100">
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-secondary rounded-pill" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //pp 6sample -->

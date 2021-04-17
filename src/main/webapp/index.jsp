@@ -409,20 +409,20 @@
           <ul class="portfolio_filter">
             <li class="on"><a href="javascript:void(0)" data-filter="*">All</a></li>
             <li>
-              <a href="javascript:void(0)" data-filter=".site">Site</a>
+              <a href="javascript:void(0)" data-filter=".pcm">PC/M</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" data-filter=".pc">PC</a>
             </li>
             <li>
               <a href="javascript:void(0)" data-filter=".event">Event</a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" data-filter=".brand">Branding</a>
             </li>
           </ul>
         </div>
       </div><!-- row -->
 
       <div class="row portfolio_item_wrap">
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site ">
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_thum.jpg" alt="work">
@@ -438,7 +438,7 @@
             </div>
           </div> <!-- single work -->
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site">
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_thum.png" alt="work">
@@ -454,7 +454,7 @@
             </div>
           </div> <!-- single work -->
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site">
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_thum.png" alt="work">
@@ -469,7 +469,22 @@
             </div>
           </div> <!-- single work -->
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item site">
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image shadow-sm">
+              <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_thum.png" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">site Design</h3>
+                <ul>
+                  <li><a data-toggle="modal" data-target="#exampleModal7" ><i class="dripicons-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/04.site_thum.png" alt="work">
@@ -485,23 +500,8 @@
             </div>
           </div> <!-- single work -->
         </div>
+
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-sm">
-              <img src="${pageContext.request.contextPath}/resources/images/work/event/05.event_thum.png" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
-                <ul>
-                  <li><a data-toggle="modal" data-target="#exampleModal5" ><i class="dripicons-plus"></i></a></li>
-                  <li><a href="https://shop.descentekorea.co.kr/event/detail.do?seq=53482" target="_blank"><i class="dripicons-link"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item brand">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
               <img src="${pageContext.request.contextPath}/resources/images/work/event/06.event_thum.png" alt="work">
@@ -522,13 +522,13 @@
 
 
 
-      <div class="row">
+      <!--<div class="row">
         <div class="col-lg-12">
           <div class="work-more text-center mt-lg-5 mt-3">
             <a class="btn btn-danger rounded-pill btn-lg slide-right" href="portfolio.jsp" target="_blank">more works</a>
-          </div> <!-- work more -->
-        </div>
-      </div> <!-- row -->
+          </div>
+        </div>-->
+      <!--</div>-->
 
 
     </div> <!-- container -->
