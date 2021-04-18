@@ -574,7 +574,7 @@
     border: 20px solid #db2043;
     border-bottom: 0;
     top: 50%;
-    left: 0;
+    left: 3%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);

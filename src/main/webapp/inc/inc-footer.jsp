@@ -7,10 +7,12 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="footer-content text-center">
-                        <a href="index.html">
+                        <a href="index.jsp">
                             <img src="assets/images/logo-2.png" alt="Logo">
                         </a>
-                        <p class="mt-">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+                         포트폴리오 내부의 디자인 및 인터랙션 코딩과 관련된 모든 작업은 본인이 직접 작업하였음을 알려드립니다.
+                        </p>
                     </div> <!-- footer content -->
                 </div>
             </div> <!-- row -->
@@ -21,7 +23,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright-text text-center pt-20">
-                        <p>Copyright © 2022. Template Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                        <p>Copyright © 2021. Design by Juyeon Choi </p>
                     </div> <!-- copyright text -->
                 </div>
             </div> <!-- row -->

@@ -3,10 +3,10 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_bg.jpg" width="100%" height="300px" alt="기업 소개  사이트 배경">
+    <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_bg.jpg" width="100%" height="300px" alt="자원예약 사이트 리뉴얼 배경">
     <div class="sub-page text-center">
-        <span class="pb-4 d-block">영상 및 화보 위주의 리뉴얼</span>
-        <h3>골프 브랜드 온라인몰</h3>
+        <span class="pb-4 d-block">자원예약 서비스 사용성 개선</span>
+        <h3>자원예약 사이트 리뉴얼</h3>
     </div>
 </div>
 
@@ -20,10 +20,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <p class="txt1">
-                    Long scrolling 스타일
+                    tap기능을 활용하여 정보 탐색의 Depth를 줄이고 각각 따로 위치해 있던 호텔, 콘도, 놀이공원 등의<br>
+                    자원예약 서비스들을 서비스 성격에 맞게 한 화면에서 예약 및 확인이 가능하도록 사용성을 개선하였습니다.
                 </p>
-                <p class="detail"><b class="port_date">2021.05</b><b class="port_client">Sk계열사 노동조합</b></p>
-                <p class="detail"><b class="port_hash">#인터랙션디자인 / #html5 / #css / #java / #spring / #jsp </b></p>
+                <p class="detail"><b class="port_date">2019.12</b><b class="port_client">SK 계열사 복지 사이트</b></p>
+                <p class="detail"><b class="port_hash">#웹 / #반응형 / #html5 / #css  / #java / #jsp / #spring</b></p>
             </div>
         </div>
     </div>

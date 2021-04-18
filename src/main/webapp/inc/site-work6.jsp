@@ -5,8 +5,8 @@
 <div class="sub-ban">
     <img src="${pageContext.request.contextPath}/resources/images/work/event/06.event_bg.jpg" width="100%" height="300px" alt="기업 소개  사이트 배경">
     <div class="sub-page text-center">
-        <span class="pb-4 d-block">영상 및 화보 위주의 리뉴얼</span>
-        <h3>골프 브랜드 온라인몰</h3>
+        <span class="pb-4 d-block">친환경 세이브더 펭귄 캠패인 기획전</span>
+        <h3>데상트코리아 르꼬끄 이벤트 기획전</h3>
     </div>
 </div>
 
@@ -20,10 +20,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <p class="txt1">
-                    Long scrolling 스타일
+                   르꼬끄만의 메인아트워크와 티셔츠가 돋보일 수 있도록 구성한<br>
+                    세이브 더 펭귄 캠페인 이벤트 기획전입니다.
                 </p>
-                <p class="detail"><b class="port_date">2021.05</b><b class="port_client">Sk계열사 노동조합</b></p>
-                <p class="detail"><b class="port_hash">#인터랙션디자인 / #html5 / #css / #java / #spring / #jsp </b></p>
+                <p class="detail"><b class="port_date">2019.04</b><b class="port_client">르꼬끄 스포르티브</b></p>
+                <p class="detail"><b class="port_hash">#웹 / #모바일 / #HTML5 / #CSS / #Photoshop cc / #Illustration</b></p>
             </div>
         </div>
     </div>
