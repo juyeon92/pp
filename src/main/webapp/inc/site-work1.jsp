@@ -11,7 +11,7 @@
 </div>
 
 <!--contents-->
-<div class="site-section bg-light">
+<div class="site-section">
     <div class="container" >
 
         <div class="row justify-content-center pt-5 pb-4">
@@ -31,6 +31,16 @@
 </div>
 
 <!--portfolio area-->
+<div class="site-section bg-light">
+    <div class="container" >
+        <div class="Detailbox">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_0.jpg" alt="기업 소개 사이트 리뉴얼 기획서">
+        </div>
+    </div>
+</div>
+
+
+
 <div class="site-section">
     <div class="container" >
         <div class="Detailbox">
@@ -59,6 +69,14 @@
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_sub4.png" alt="기업 소개 사이트 리뉴얼4">
+        </div>
+    </div>
+</div>
+
+<div class="site-section">
+    <div class="container" >
+        <div class="Detailbox">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_1.jpg" alt="기업 소개 사이트 리뉴얼1">
         </div>
     </div>
 </div>

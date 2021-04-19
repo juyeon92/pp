@@ -20,8 +20,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <p class="txt1">
-                   르꼬끄만의 메인아트워크와 티셔츠가 돋보일 수 있도록 구성한<br>
-                    세이브 더 펭귄 캠페인 이벤트 기획전입니다.
+                   르꼬끄만의 메인아트워크와 티셔츠가 돋보일 수 있도록 구성한 세이브 더 펭귄 캠페인 이벤트 기획전입니다.
                 </p>
                 <p class="detail"><b class="port_date">2019.04</b><b class="port_client">르꼬끄 스포르티브</b></p>
                 <p class="detail"><b class="port_hash">#웹 / #모바일 / #HTML5 / #CSS / #Photoshop cc / #Illustration</b></p>

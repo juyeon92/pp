@@ -663,10 +663,25 @@
   background: #c82333;
 }
 
-
 .modal-fullscreen{
   width: 90%;
   margin:0 auto;
+}
+
+@media (max-width: 767px) {
+  .default-line {
+    content: '';
+    left: 3%;
+    width: 2px;
+    background: #eee;
+    height: 100%;
+  }
+  .draw-line {
+    width: 2px;
+    height: 0;
+    left: 3%;
+    background: #c82333;
+  }
 }
 
 
@@ -826,6 +841,10 @@
 
 .list-box span:before{content: "·"; font-weight: bold; margin-right: 5px;}
 .list-box2 span:before{content: "·"; font-weight: bold; right: 22px; position: absolute;}
+
+@media (max-width: 767px) {
+  .list-box2 span:before{display: none;}
+}
 
 /*===========================
         3.about css
@@ -1340,12 +1359,14 @@ p.form-message.success, p.form-message.error {
       padding-bottom: 100px; } }
   @media (max-width: 767px) {
     .footer-widget {
-      padding-top: 80px;
-      padding-bottom: 80px; } }
+      padding-top: 0;
+      padding-bottom: 0; } }
 
 .footer-content p {
   color: #fff;
-  margin-top: 35px; }
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .footer-content ul {
   margin-top: 35px; }
   .footer-content ul li {

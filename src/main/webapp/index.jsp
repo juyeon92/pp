@@ -44,7 +44,7 @@
           <h4 class="text-danger text-uppercase">Designer</h4>
           <h1 class="title">Juyeon Choi</h1>
           <p>UI/UX Designer & Publisher</p>
-          <a class="btn btn-danger rounded-pill btn-lg slide-right" href="portfolio.jsp">View my Work</a>
+          <a class="btn btn-danger rounded-pill btn-lg slide-right" href="#portfolio">View my Work</a>
         </div> <!-- header content right -->
       </div>
       <div class="col-lg-6 offset-xl-1">
@@ -78,10 +78,11 @@
             <span class="default-line"></span>
             <span class="draw-line"></span>
 
+
             <li class="timeline-event">
               <label class="timeline-event-icon"></label>
+              <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
 
-              <div data-aos="fade-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
               <div class="timeline-event-copy">
                 <p class="timeline-event-thumbnail">2020.07.01 - 현재</p>
                 <h3>SK 하이스텍</h3>
@@ -97,10 +98,11 @@
             </li>
 
 
+
             <li class="timeline-event" >
               <label class="timeline-event-icon"></label>
+              <div data-aos="fade-down" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
 
-              <div data-aos="fade-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
               <div class="timeline-event-copy">
                 <p class="timeline-event-thumbnail">2017.07.03 - 2020.06.25</p>
                 <h3>데상트코리아</h3>
@@ -115,10 +117,12 @@
               </div>
             </li>
 
+
+
             <li class="timeline-event aos-init ">
               <label class="timeline-event-icon"></label>
+              <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
 
-              <div data-aos="fade-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
               <div class="timeline-event-copy">
                 <p class="timeline-event-thumbnail">2016.01.18 ~ 2016.06.24</p>
                 <h3>해커스 어학원</h3>
@@ -132,10 +136,12 @@
               </div>
             </li>
 
+
+
             <li class="timeline-event aos-init ">
               <label class="timeline-event-icon"></label>
+              <div data-aos="fade-down" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
 
-              <div data-aos="fade-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
                 <div class="timeline-event-copy">
                   <p class="timeline-event-thumbnail">2011.03 ~ 2016.02</p>
                   <h3>연세대학교</h3>
@@ -148,6 +154,7 @@
                 </div>
               </div>
             </li>
+
 
           </ul>
         </div>
@@ -170,15 +177,13 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="about-content mt-4 text-left text-lg-center">
-
-            <div data-aos="fade-down" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
+            <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
             <p>
               웹/모바일 UI/UX 디자이너로서 Photoshop, Adobe XD, Zeplin 등을 활용한 UI 디자인 뿐만아니라<br>
               더 나은 사용자 UX 제공을 위해 CSS, HTML, JavaScript를 활용한 인터랙션 디자인을 제공해 왔습니다.
             </p>
             </div>
 
-          <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
             <ul class="clearfix pt-4">
               <li>
                 <div class="single-info d-flex align-items-center">
@@ -201,12 +206,12 @@
                 </div> <!-- single info -->
               </li>
             </ul>
-          </div>
+
 
           </div> <!-- about content -->
         </div>
         <div class="col-lg-6 col-sm-12">
-          <div data-aos="fade-right" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
+          <div data-aos="zoom-in" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="about-skills pt-3">
             <div class="skill-item mt-3">
               <div class="skill-header">
@@ -260,7 +265,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-sm-12">
-          <div data-aos="fade-left" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
+          <div data-aos="zoom-in" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="about-skills pt-3">
             <div class="skill-item mt-3">
               <div class="skill-header">

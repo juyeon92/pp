@@ -10,6 +10,9 @@
 
     <title>Juyeon Portfolio</title>
 
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.png" type="image/png">
+
     <!--====== Bootstrap css ======-->
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap.css" rel="stylesheet" />
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap-grid.css" rel="stylesheet"/>
@@ -39,7 +42,7 @@
 
 </head>
 
-<body translate="no" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+<body>
 <!--====== HEADER PART START ======-->
 <header id="home" class="header-area">
     <div class="navigation fixed-top">
