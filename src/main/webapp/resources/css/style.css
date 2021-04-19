@@ -821,6 +821,12 @@
   height: 0.5rem;
 }
 
+
+@media (max-width: 767px) {
+  .timeline li:nth-child(odd) .timeline-event-icon,
+  .timeline li:nth-child(even) .timeline-event-icon{top: 13%;}
+}
+
 .timeline-event-thumbnail {
   -moz-transition: box-shadow 0.5s ease-in 0.1s;
   -o-transition: box-shadow 0.5s ease-in 0.1s;
