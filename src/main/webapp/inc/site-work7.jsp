@@ -23,7 +23,7 @@
                     tap기능을 활용하여 정보 탐색의 Depth를 줄이고 각각 따로 위치해 있던 호텔, 콘도, 놀이공원 등의<br>
                     자원예약 서비스들을 서비스 성격에 맞게 한 화면에서 예약 및 확인이 가능하도록 사용성을 개선하였습니다.
                 </p>
-                <p class="detail"><b class="port_date">2019.12</b><b class="port_client">SK 계열사 복지 사이트</b></p>
+                <p class="detail"><b class="port_date">2020.07(예정)</b><b class="port_client">SK 계열사 복지 사이트</b></p>
                 <p class="detail"><b class="port_hash">#웹 / #반응형 / #html5 / #css  / #java / #jsp / #spring</b></p>
             </div>
         </div>
