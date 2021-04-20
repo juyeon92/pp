@@ -34,12 +34,10 @@
 <div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_0.jpg" alt="기업 소개 사이트 리뉴얼 기획서">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_ux.jpg" alt="기업 소개 사이트 리뉴얼 uxui 가이드">
         </div>
     </div>
 </div>
-
-
 
 <div class="site-section">
     <div class="container" >
@@ -77,6 +75,14 @@
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_1.jpg" alt="기업 소개 사이트 리뉴얼1">
+        </div>
+    </div>
+</div>
+
+<div class="site-section bg-light">
+    <div class="container" >
+        <div class="Detailbox">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_0.jpg" alt="기업 소개 사이트 리뉴얼 기획서">
         </div>
     </div>
 </div>

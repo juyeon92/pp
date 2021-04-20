@@ -16,7 +16,7 @@
             <div class="modal-footer">
                 <div class="row justify-content-center w-100">
                     <div class="col-auto">
-                        <button type="button" class="btn btn-secondary rounded-pill" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary rounded-pill btn-block" data-dismiss="modal">Close</button>
                     </div>
                 </div>
 
@@ -41,7 +41,7 @@
             <div class="modal-footer">
                 <div class="row justify-content-center w-100">
                     <div class="col-auto">
-                        <button type="button" class="btn btn-secondary rounded-pill" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary rounded-pill btn-block" data-dismiss="modal">Close</button>
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@
             <div class="modal-footer">
                 <div class="row justify-content-center w-100">
                     <div class="col-auto">
-                        <button type="button" class="btn btn-secondary rounded-pill" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary rounded-pill btn-block" data-dismiss="modal">Close</button>
                     </div>
                 </div>
 
@@ -89,7 +89,7 @@
             <div class="modal-footer">
                 <div class="row justify-content-center w-100">
                     <div class="col-auto">
-                        <button type="button" class="btn btn-secondary rounded-pill" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary rounded-pill btn-block" data-dismiss="modal">Close</button>
                     </div>
                 </div>
 
@@ -113,7 +113,7 @@
             <div class="modal-footer">
                 <div class="row justify-content-center w-100">
                     <div class="col-auto">
-                        <button type="button" class="btn btn-secondary rounded-pill" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary rounded-pill btn-block" data-dismiss="modal">Close</button>
                     </div>
                 </div>
 
@@ -137,7 +137,7 @@
             <div class="modal-footer">
                 <div class="row justify-content-center w-100">
                     <div class="col-auto">
-                        <button type="button" class="btn btn-secondary rounded-pill" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary rounded-pill btn-block" data-dismiss="modal">Close</button>
                     </div>
                 </div>
 
@@ -161,7 +161,7 @@
             <div class="modal-footer">
                 <div class="row justify-content-center w-100">
                     <div class="col-auto">
-                        <button type="button" class="btn btn-secondary rounded-pill" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary rounded-pill btn-block" data-dismiss="modal">Close</button>
                     </div>
                 </div>
 

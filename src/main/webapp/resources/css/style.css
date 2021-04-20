@@ -1209,13 +1209,24 @@
 /*portfolio sub*/
 .sub-ban {
   position: relative;
-  display: flex;
-  justify-content: center;
 }
+
+@media (max-width: 767px) {
+  .sub-ban img{
+    height: 300px;
+    max-width: fit-content;
+  }
+  .sub-page {
+    left: 0 !important;
+    padding-top: 90px !important;
+  }
+}
+
 .sub-page {
   position: absolute;
+  left: 42%;
   top: 0;
-  padding-top: 145px;
+  padding-top: 135px;
 }
 .sub-page span, .sub-page h3 {
   color: #fff;
@@ -1257,8 +1268,8 @@
   text-transform: uppercase;
 }
 .Detailbox {
-  -webkit-box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
-  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
 

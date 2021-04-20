@@ -434,7 +434,7 @@
             </div>
             <div class="work-overlay">
               <div class="work-content">
-                <h3 class="work-title">Buiseness Site</h3>
+                <h3 class="work-title">Buiseness Site Renewal</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
                   <li><a><i class="dripicons-link"></i></a></li>
@@ -466,7 +466,7 @@
             </div>
             <div class="work-overlay">
               <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
+                <h3 class="work-title">Community Site Renewal</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal3" ><i class="dripicons-plus"></i></a></li>
                 </ul>
@@ -481,7 +481,7 @@
             </div>
             <div class="work-overlay">
               <div class="work-content">
-                <h3 class="work-title">site Design</h3>
+                <h3 class="work-title">Reservation site Renewal</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal7" ><i class="dripicons-plus"></i></a></li>
                 </ul>
@@ -496,7 +496,7 @@
             </div>
             <div class="work-overlay">
               <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
+                <h3 class="work-title">Brandmal Renewal</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal4" ><i class="dripicons-plus"></i></a></li>
                   <li><a href="https://www.munsingwear.co.kr/index.do?netFunnelYn=N" target="_blank"><i class="dripicons-link"></i></a></li>
@@ -513,7 +513,7 @@
             </div>
             <div class="work-overlay">
               <div class="work-content">
-                <h3 class="work-title">Product Design</h3>
+                <h3 class="work-title">Event Design</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal6" ><i class="dripicons-plus"></i></a></li>
                   <li><a href="https://shop.descentekorea.co.kr/event/detail.do?seq=36220" target="_blank"><i class="dripicons-link"></i></a></li>

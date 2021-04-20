@@ -34,12 +34,20 @@
 <div class="site-section">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_1.png" alt="커뮤니티 사이트 리뉴얼1">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_sub0.png" alt="커뮤니티 사이트 리뉴얼1">
         </div>
     </div>
 </div>
 
 <div class="site-section bg-light">
+    <div class="container" >
+        <div class="Detailbox">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_1.png" alt="커뮤니티 사이트 리뉴얼1">
+        </div>
+    </div>
+</div>
+
+<div class="site-section">
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_2.png" alt="커뮤니티 사이트 리뉴얼2">
