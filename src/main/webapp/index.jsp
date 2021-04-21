@@ -437,7 +437,6 @@
                 <h3 class="work-title">Buiseness Site Renewal</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
-                  <li><a><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -453,7 +452,7 @@
                 <h3 class="work-title">Community Site</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal2" ><i class="dripicons-plus"></i></a></li>
-                  <li><a href="02.community.jsp" target="_blank"><i class="dripicons-link"></i></a></li>
+                  <li class="mobile-hide"><a href="02.community.jsp" target="_blank"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>

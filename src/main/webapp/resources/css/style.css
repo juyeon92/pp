@@ -20,7 +20,9 @@
 }
   @media (max-width: 767px) {
     .section-title .title {
-      font-size: 30px; } }
+      font-size: 30px; }
+  .mobile-hide{display: none !important;}
+  }
 
 /*===== All Preloader Style =====*/
 .preloader {
