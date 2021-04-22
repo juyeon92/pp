@@ -75,7 +75,7 @@
 
 
 /*2deps menu*/
-.main-nav-list2 .main-nav-ul2{display: none; position: absolute; left: 189px; width: 100%;  top: 0;
+.main-nav-list2 .main-nav-ul2{display: none; position: absolute; left: 158px; width: 100%;  top: 0;
     -moz-animation: slide-in-bottom 0.3s ease-out;
     animation: slide-in-bottom 0.3s ease-out;
 }
@@ -88,6 +88,39 @@
 .main-nav-list2 .main-nav-ul2 li a:hover, .main-nav-list2 .main-nav-ul2 li a:focus{color: #ea002c;}
 
 
+/* 2depth +*/
+
+.main-nav-list2{position: relative;}
+
+.main-nav-list2.has-sub > a:before {
+    position: absolute;
+    top: 19px;
+    right: 14px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #ddd;
+    content: '';
+    -webkit-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.main-nav-list2.has-sub > a:after {
+    position: absolute;
+    top: 22px;
+    right: 11px;
+    width: 8px;
+    height: 2px;
+    display: block;
+    background: #ddd;
+    content: '';
+}
+
+.main-nav-list2.has-sub:hover > a:before{
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+}
 
 
 

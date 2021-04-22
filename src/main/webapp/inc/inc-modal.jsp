@@ -128,7 +128,7 @@
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel6">Portfolio work6</h5>
+                <h5 class="modal-title" id="exampleModalLabel6">Portfolio work7</h5>
                 <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -147,7 +147,7 @@
 </div>
 <!-- //pp 6sample -->
 
-<!-- pp 6sample -->
+<!-- pp 7sample -->
 <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
@@ -169,4 +169,28 @@
         </div>
     </div>
 </div>
-<!-- //pp 6sample -->
+<!-- //pp 7sample -->
+
+<!-- pp 8sample -->
+<div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel8">Portfolio work6</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <%@include file="site-work8.jsp" %>
+            </div>
+            <div class="modal-footer">
+                <div class="row justify-content-center w-100">
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-secondary rounded-pill btn-block" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //pp 8sample -->

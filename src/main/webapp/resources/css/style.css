@@ -1216,10 +1216,10 @@
 @media (max-width: 767px) {
   .sub-ban img{
     height: 300px;
-    max-width: fit-content;
   }
   .sub-page {
     left: 0 !important;
+    width: 100% !important;
     padding-top: 90px !important;
   }
 }

@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html lang="ko">
 <head>
-    <title>SK하이닉스사무지회</title>
+    <title>SK계열사 사무지 노동조합</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap.css" />
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap-grid.css" />
 
