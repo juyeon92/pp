@@ -437,6 +437,7 @@
                 <h3 class="work-title">Buiseness Site Renewal</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
+                  <li class="mobile-hide"><a href="http://www.skhynixsystemic.cn/" target="_blank"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>
