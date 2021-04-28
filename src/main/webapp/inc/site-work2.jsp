@@ -42,12 +42,20 @@
 <div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_sub1.png" alt="커뮤니티 사이트 신규구축1">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_sub_user-flow.png" alt="커뮤니티 사이트 신규구축1">
         </div>
     </div>
 </div>
 
 <div class="site-section">
+    <div class="container" >
+        <div class="Detailbox">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_sub1.png" alt="커뮤니티 사이트 신규구축1">
+        </div>
+    </div>
+</div>
+
+<div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_sub1-2.png" alt="커뮤니티 사이트 신규구축2">
@@ -55,7 +63,7 @@
     </div>
 </div>
 
-<div class="site-section bg-light">
+<div class="site-section">
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_sub2.png" alt="커뮤니티 사이트 신규구축3">
@@ -63,7 +71,7 @@
     </div>
 </div>
 
-<div class="site-section">
+<div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_sub3.png" alt="커뮤니티 사이트 신규구축4">
@@ -71,7 +79,7 @@
     </div>
 </div>
 
-<div class="site-section bg-light">
+<div class="site-section">
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_sub4.png" alt="커뮤니티 사이트 신규구축5">
@@ -79,7 +87,7 @@
     </div>
 </div>
 
-<div class="site-section">
+<div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_sub5.png" alt="커뮤니티 사이트 신규구축6">
