@@ -42,7 +42,7 @@
 <div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_0.png" alt="자원예약 사이트 ux">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_sub_user-flow.png" alt="자원예약 사이트 userflow">
         </div>
     </div>
 </div>
@@ -50,7 +50,7 @@
 <div class="site-section">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_1.png" alt="자원예약 사이트 서브페이지1">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_0.png" alt="자원예약 사이트 ux">
         </div>
     </div>
 </div>
@@ -58,12 +58,20 @@
 <div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_2.png" alt="자원예약 사이트 서브페이지2">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_1.png" alt="자원예약 사이트 서브페이지1">
         </div>
     </div>
 </div>
 
 <div class="site-section">
+    <div class="container" >
+        <div class="Detailbox">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_2.png" alt="자원예약 사이트 서브페이지2">
+        </div>
+    </div>
+</div>
+
+<div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
             <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_3.png" alt="자원예약 사이트 서브페이지3">
