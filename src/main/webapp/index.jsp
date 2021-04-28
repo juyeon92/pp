@@ -427,22 +427,6 @@
       </div><!-- row -->
 
       <div class="row portfolio_item_wrap">
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
-          <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-sm">
-              <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_thum.jpg" alt="work">
-            </div>
-            <div class="work-overlay">
-              <div class="work-content">
-                <h3 class="work-title">Buiseness Site Renewal</h3>
-                <ul>
-                  <li><a data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
-                  <li class="mobile-hide"><a href="http://www.skhynixsystemic.cn/" target="_blank"><i class="dripicons-link"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- single work -->
-        </div>
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">
@@ -459,21 +443,24 @@
             </div>
           </div> <!-- single work -->
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
+
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
-              <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_thum.png" alt="work">
+            <div class="work-image shadow-sm">
+              <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_thum.jpg" alt="work">
             </div>
             <div class="work-overlay">
               <div class="work-content">
-                <h3 class="work-title">Community Site Renewal</h3>
+                <h3 class="work-title">Buiseness Site Renewal</h3>
                 <ul>
-                  <li><a data-toggle="modal" data-target="#exampleModal3" ><i class="dripicons-plus"></i></a></li>
+                  <li><a data-toggle="modal" data-target="#exampleModal" > <i class="dripicons-plus"></i></a></li>
+                  <li><a href="http://www.skhynixsystemic.cn/" target="_blank"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>
           </div> <!-- single work -->
         </div>
+
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
@@ -489,6 +476,23 @@
             </div>
           </div> <!-- single work -->
         </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image">
+              <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_thum.png" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Community Site Renewal</h3>
+                <ul>
+                  <li><a data-toggle="modal" data-target="#exampleModal3" ><i class="dripicons-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image">

@@ -20,7 +20,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <p class="txt1">
-                    컨텐츠간 구분이 어렵던 기존 메인의 사용성개선을 위해 컨텐츠의 중요도, 성격 등을 재분류하여<br>
+                    컨텐츠간 구분이 어렵던 기존 메인의 사용성개선을 위해 컨텐츠의 중요도, 성격 등을 재분류하여
                     노출순서는 중요도를 기준으로 배치는 컨텐츠 성격에 맞춰 Long Scrolling 형태를 사용하여 배치하였습니다.
                 </p>
                 <p class="detail"><b class="port_date">2021.05(예정)</b><b class="port_client">Sk계열사 전임직 노동조합</b></p>
