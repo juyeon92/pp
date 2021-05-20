@@ -770,14 +770,15 @@
 
 
 .timeline li:hover .timeline-event-thumbnail {
-  box-shadow: inset 40em 0 0 0 #db2043;
+  box-shadow: inset 40em 0 0 0 #f23333;
   color: #fff;
 }
+
 
 .timeline li:hover:nth-child(even) .timeline-event-icon{
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background-color: #db2043;
+  background-color: #f23333;
 }
 
 .timeline li:nth-child(even) .timeline-event-icon {
@@ -840,8 +841,8 @@
   font-size: 12px;
   font-weight: bold;
   border-radius: 100px;
-  background: #ccc;
-  box-shadow: inset 0 0 0 0em #db2043;
+  background: #db2043;
+  box-shadow: inset 0 0 0 0em #f23333;
   display: inline-block;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;

@@ -170,7 +170,7 @@
         <div class="col-lg-8">
           <div class="section-title text-left text-lg-center">
             <h2 class="title">About Me</h2>
-            <p>4년차 UI/UX 디자이너 최주연입니다.</p>
+            <p>UI/UX 디자이너 최주연입니다.</p>
           </div> <!-- section title -->
         </div>
       </div> <!-- row -->
@@ -409,7 +409,7 @@
           </div> <!-- section title -->
         </div>
       </div> <!-- row -->
-      <div class="row justify-content-center pt-2">
+      <!--오류 수정..<div class="row justify-content-center pt-2">
         <div class="col-lg-6 col-sm-12">
           <ul class="portfolio_filter">
             <li class="on"><a href="javascript:void(0)" data-filter="*">All</a></li>
@@ -424,12 +424,32 @@
             </li>
           </ul>
         </div>
-      </div><!-- row -->
+      </div>--><!-- row -->
+
+
 
       <div class="row portfolio_item_wrap">
+
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
+            <div class="work-image shadow-lg">
+              <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_thum.jpg" alt="work">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Community Site</h3>
+                <ul>
+                  <li><a data-toggle="modal" data-target="#exampleModal9" ><i class="dripicons-plus"></i></a></li>
+                  <li><a href="https://mc.skhystec.com/mySUNI/" target="_blank"><i class="dripicons-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
+          <div class="single-work text-center mt-lg-5 mt-3">
+            <div class="work-image shadow-lg">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -446,7 +466,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-sm">
+            <div class="work-image shadow-lg">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_thum.jpg" alt="work">
             </div>
             <div class="work-overlay">
@@ -463,7 +483,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-sm">
+            <div class="work-image shadow-lg">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -479,7 +499,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
+            <div class="work-image shadow-lg">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -495,7 +515,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
+            <div class="work-image shadow-lg">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/04.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -512,7 +532,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
+            <div class="work-image shadow-lg">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/08.site_thum.jpg" alt="work">
             </div>
             <div class="work-overlay">
@@ -529,7 +549,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
+            <div class="work-image shadow-lg">
               <img src="${pageContext.request.contextPath}/resources/images/work/event/06.event_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -546,7 +566,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image">
+            <div class="work-image shadow-lg">
               <img src="${pageContext.request.contextPath}/resources/images/work/event/05.event_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -568,13 +588,13 @@
 
 
 
-      <!--<div class="row">
+      <div class="row">
         <div class="col-lg-12">
           <div class="work-more text-center mt-lg-5 mt-3">
-            <a class="btn btn-danger rounded-pill btn-lg slide-right" href="portfolio.jsp" target="_blank">more works</a>
+            <a id="more-view" class="btn btn-danger rounded-pill btn-lg slide-right" href="javascript:void(0);" target="_blank">more works</a>
           </div>
-        </div>-->
-      <!--</div>-->
+        </div>
+      </div>
 
 
     </div> <!-- container -->

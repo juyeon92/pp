@@ -118,37 +118,37 @@
     //===== filter
 
 
-    $('.portfolio_item_wrap').isotope({
-        itemSelector: '.portfolio_item',
-    });
+    //$('.portfolio_item_wrap').isotope({
+      //  itemSelector: '.portfolio_item',
+    //});
 
 // filter items on button click
-    $('.portfolio_filter').on( 'click', 'li', function() {
-        var filterValue = $(this).children().attr('data-filter');
-        $('.portfolio_item_wrap').isotope({ filter: filterValue });
-        $('.portfolio_filter li').removeClass('on');
-        $(this).addClass('on');
-    });
+   // $('.portfolio_filter').on( 'click', 'li', function() {
+   //     var filterValue = $(this).children().attr('data-filter');
+   //     $('.portfolio_item_wrap').isotope({ filter: filterValue });
+   //     $('.portfolio_filter li').removeClass('on');
+    //    $(this).addClass('on');
+   // });
 
 
 
     //view more
 
-   // var limit = 6;
-   // var per_page = 3;
-   // jQuery('.portfolio_item_wrap > div.portfolio_item:gt('+(limit-1)+')').hide();
-   // if (jQuery('.portfolio_item_wrap > div.portfolio_item').length <= limit) {
-   //     jQuery('#more-view').hide();
-   // };
+   var limit = 6;
+   var per_page = 3;
+   jQuery('.portfolio_item_wrap > div.portfolio_item:gt('+(limit-1)+')').hide();
+   if (jQuery('.portfolio_item_wrap > div.portfolio_item').length <= limit) {
+        jQuery('#more-view').hide();
+   };
 
-    //jQuery('#more-view').bind('click', function(event){
-      //  event.preventDefault();
-     //   limit += per_page;
-      //  jQuery('.portfolio_item_wrap > div.portfolio_item:lt('+(limit)+')').show();
-      //  if (jQuery('.portfolio_item_wrap > div.portfolio_item').length <= limit) {
-      //      jQuery(this).hide();
-     //   }
-   // });
+   jQuery('#more-view').bind('click', function(event){
+     event.preventDefault();
+      limit += per_page;
+      jQuery('.portfolio_item_wrap > div.portfolio_item:lt('+(limit)+')').show();
+     if (jQuery('.portfolio_item_wrap > div.portfolio_item').length <= limit) {
+         jQuery(this).hide();
+      }
+    });
 
 
     AOS.init();
@@ -182,8 +182,8 @@
     }
 
 
-
-
 }(jQuery));
+
+
 
 
