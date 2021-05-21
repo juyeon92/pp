@@ -432,15 +432,15 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-lg">
+            <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_thum.jpg" alt="work">
             </div>
             <div class="work-overlay">
               <div class="work-content">
-                <h3 class="work-title">Community Site</h3>
+                <h3 class="work-title">Introduce WebAPP</h3>
                 <ul>
                   <li><a data-toggle="modal" data-target="#exampleModal9" ><i class="dripicons-plus"></i></a></li>
-                  <li><a href="https://mc.skhystec.com/mySUNI/" target="_blank"><i class="dripicons-link"></i></a></li>
+                  <li class="pc-hide" ><a href="https://mc.skhystec.com/mySUNI/" target="_blank"><i class="dripicons-link"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -449,7 +449,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-lg">
+            <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -483,7 +483,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-lg">
+            <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -499,7 +499,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-lg">
+            <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -515,7 +515,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-lg">
+            <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/04.site_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -532,7 +532,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-lg">
+            <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/08.site_thum.jpg" alt="work">
             </div>
             <div class="work-overlay">
@@ -549,7 +549,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-lg">
+            <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/event/06.event_thum.png" alt="work">
             </div>
             <div class="work-overlay">
@@ -566,7 +566,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
           <div class="single-work text-center mt-lg-5 mt-3">
-            <div class="work-image shadow-lg">
+            <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/event/05.event_thum.png" alt="work">
             </div>
             <div class="work-overlay">

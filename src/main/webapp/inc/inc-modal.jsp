@@ -197,3 +197,27 @@
     </div>
 </div>
 <!-- //pp 8sample -->
+
+<!-- pp 9sample -->
+<div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel9">Event/Promotion Portfolio</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <%@include file="site-work9.jsp" %>
+            </div>
+            <div class="modal-footer">
+                <div class="row justify-content-center w-100">
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-secondary rounded-pill btn-block" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //pp 9sample -->

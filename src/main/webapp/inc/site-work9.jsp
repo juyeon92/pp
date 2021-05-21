@@ -3,13 +3,13 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <div width="100%" height="300px">
+    <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_bg.jpg" width="100%" height="300px" alt="자원예약 사이트 리뉴얼 배경">
     <div class="sub-page text-center">
-        <span class="pb-4 d-block">모바일 전용 트렌드 소개 페이지</span>
-        <h3>NOW 서비스 구축</h3>
-    </div>
+        <span class="pb-4 d-block">SK그룹사 교육 서비스 소개 모바일 웹</span>
+        <h3>SK그룹사 교육 서비스 소개</h3>
     </div>
 </div>
+
 
 <!--contents-->
 <div class="site-section bg-light">
@@ -21,21 +21,20 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                 <p class="txt1">
-                    소비심리에 영향을 미치는 최신 트렌드와 자사 상품을 연계하여 매거진 형식으로 제공하는 모바일 전용 컨텐츠입니다.
+                    SK그룹사 교육컨텐츠를 소개하는 모바일 전용 페이지입니다. 소개 페이지 홍보를 위한 e-mail letter도 함께 디자인하였습니다.
                 </p>
-                <p class="detail"><b class="port_date">2020.03</b><b class="port_client">데상트코리아 공식몰</b></p>
-                <p class="detail"><b class="port_hash">#모바일전용 / #photoshop / #트렌드소개 </b></p>
+                <p class="detail"><b class="port_date">2021.05</b><b class="port_client">SK하이닉스</b></p>
+                <p class="detail"><b class="port_hash">#모바일전용 / #HTML5 / #CSS / #Javascript </b></p>
             </div>
         </div>
     </div>
 </div>
 
 <!--portfolio area-->
-
-<div class="site-section ">
+<div class="site-section">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_1.jpg" alt="mySUNI_1">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_0.jpg" alt="mySUNI_1">
         </div>
     </div>
 </div>
@@ -43,7 +42,7 @@
 <div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/08.site_2.jpg" alt="NOW 서비스 서브페이지2">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_1.jpg" alt="mySUNI_2">
         </div>
     </div>
 </div>
@@ -51,7 +50,7 @@
 <div class="site-section">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/08.site_3.jpg" alt="NOW 서비스 서브페이지3">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_2.jpg" alt="mySUNI_3">
         </div>
     </div>
 </div>

@@ -18,10 +18,16 @@
   color: #000;
   margin-bottom: 0;
 }
+
+.pc-hide{
+  display: none !important;
+}
+
   @media (max-width: 767px) {
     .section-title .title {
       font-size: 30px; }
   .mobile-hide{display: none !important;}
+  .pc-hide{display: block;}
   }
 
 /*===== All Preloader Style =====*/
@@ -1803,4 +1809,9 @@ p.form-message.success, p.form-message.error {
 
 
 
-
+.bg-work9{
+  background-color: #00d4b5;
+  background-image: linear-gradient(
+          135deg
+          , #00d4b5 0%, rgba(13, 164, 167, 0.8) 100%);
+}
