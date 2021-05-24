@@ -3,7 +3,8 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_bg.jpg" width="100%" height="300px" alt="커뮤니티 사이트 배경">
+    <img class="mobile-hide" src="${pageContext.request.contextPath}/resources/images/work/site/03.site_bg.jpg" width="100%" height="300px" alt="커뮤니티 사이트 배경">
+    <img class="pc-hide" src="${pageContext.request.contextPath}/resources/images/work/site/03.site_bg_m.jpg" width="100%" height="300px" alt="커뮤니티 사이트 배경">
     <div class="sub-page text-center">
         <span class="pb-4 d-block">메인화면 사용성 개선</span>
         <h3>커뮤니티 사이트 리뉴얼</h3>

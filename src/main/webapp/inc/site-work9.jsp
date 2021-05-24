@@ -3,7 +3,9 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_bg.jpg" width="100%" height="300px" alt="자원예약 사이트 리뉴얼 배경">
+    <img class="mobile-hide" src="${pageContext.request.contextPath}/resources/images/work/site/09.site_bg.jpg" width="100%" height="300px" alt="자원예약 사이트 리뉴얼 배경">
+    <img class="pc-hide" src="${pageContext.request.contextPath}/resources/images/work/site/09.site_bg_m.jpg" width="100%" height="300px" alt="자원예약 사이트 리뉴얼 배경">
+
     <div class="sub-page text-center">
         <span class="pb-4 d-block">SK그룹사 교육 서비스 소개 모바일 웹</span>
         <h3>SK그룹사 교육 서비스 소개</h3>

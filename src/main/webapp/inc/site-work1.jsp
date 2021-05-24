@@ -3,7 +3,9 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_bg.jpg" width="100%" height="300px" alt="기업 소개 사이트 리뉴얼 배경">
+    <img class="mobile-hide" src="${pageContext.request.contextPath}/resources/images/work/site/01.site_bg.jpg" width="100%" height="300px" alt="기업 소개 사이트 리뉴얼 배경">
+    <img class="pc-hide" src="${pageContext.request.contextPath}/resources/images/work/site/01.site_bg_m.jpg" alt="기업 소개 사이트 리뉴얼 배경">
+
     <div class="sub-page text-center">
         <span class="pb-4 d-block">사업 소개 및 홍보 웹사이트</span>
         <h3>기업 소개 사이트 리뉴얼</h3>

@@ -3,10 +3,12 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <img src="${pageContext.request.contextPath}/resources/images/work/site/04.site_bg.jpg" width="100%" height="300px" alt="데상트코리아 먼싱웨어 브랜드몰 리뉴얼 배경">
+    <img class="mobile-hide" src="${pageContext.request.contextPath}/resources/images/work/site/04.site_bg.jpg" width="100%" height="300px" alt="데상트코리아 먼싱웨어 브랜드몰 리뉴얼 배경">
+    <img class="pc-hide" src="${pageContext.request.contextPath}/resources/images/work/site/04.site_bg_m.jpg" width="100%" height="300px" alt="데상트코리아 먼싱웨어 브랜드몰 리뉴얼 배경">
+
     <div class="sub-page text-center">
-        <span class="pb-4 d-block">명확한 브랜드 스토리 전달을 위한 메인 노출구좌 개선</span>
-        <h3>데상트코리아 먼싱웨어 브랜드몰 리뉴얼</h3>
+        <span class="pb-4 d-block">메인 노출구좌 개선</span>
+        <h3>먼싱웨어 브랜드몰 리뉴얼</h3>
     </div>
 </div>
 

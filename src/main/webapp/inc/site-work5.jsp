@@ -3,10 +3,12 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <img src="${pageContext.request.contextPath}/resources/images/work/event/05.site_bg.jpg" width="100%" height="300px" alt="기업 소개  사이트 배경">
+    <img class="mobile-hide" src="${pageContext.request.contextPath}/resources/images/work/event/05.site_bg.jpg" width="100%" height="300px" alt="기업 소개  사이트 배경">
+    <img class="pc-hide" src="${pageContext.request.contextPath}/resources/images/work/event/05.site_bg_m.jpg" width="100%" height="300px" alt="기업 소개  사이트 배경">
+
     <div class="sub-page text-center">
-        <span class="pb-4 d-block">LA BLAZON 소개 기획전</span>
-        <h3>데상트코리아 르꼬끄 기획전</h3>
+        <span class="pb-4 d-block">LA BLAZON 소개</span>
+        <h3>르꼬끄 이벤트 기획전</h3>
     </div>
 </div>
 

@@ -3,7 +3,8 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_bg.jpg" width="100%" height="300px" alt="커뮤니티 사이트 신규구축 배경">
+    <img class="mobile-hide" src="${pageContext.request.contextPath}/resources/images/work/site/02.site_bg.jpg" width="100%" height="300px" alt="커뮤니티 사이트 신규구축 배경">
+    <img class="pc-hide" src="${pageContext.request.contextPath}/resources/images/work/site/02.site_bg_m.jpg" width="100%" height="300px" alt="커뮤니티 사이트 신규구축 배경">
     <div class="sub-page text-center">
         <span class="pb-4 d-block">사용자 친화 기능을 중점으로 한 커뮤니티</span>
         <h3>커뮤니티 사이트 신규구축</h3>

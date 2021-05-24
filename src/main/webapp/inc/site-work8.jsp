@@ -3,7 +3,9 @@
 <!--top_ban-->
 
 <div class="sub-ban">
-    <img src="${pageContext.request.contextPath}/resources/images/work/site/08.site_bg.jpg" width="100%" height="300px" alt="자원예약 사이트 리뉴얼 배경">
+    <img class="mobile-hide" src="${pageContext.request.contextPath}/resources/images/work/site/08.site_bg.jpg" width="100%" height="300px" alt="자원예약 사이트 리뉴얼 배경">
+    <img class="pc-hide" src="${pageContext.request.contextPath}/resources/images/work/site/08.site_bg_m.jpg" width="100%" height="300px" alt="자원예약 사이트 리뉴얼 배경">
+
     <div class="sub-page text-center">
         <span class="pb-4 d-block">모바일 전용 트렌드 소개 페이지</span>
         <h3>NOW 서비스 구축</h3>
