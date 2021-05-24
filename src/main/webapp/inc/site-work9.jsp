@@ -42,7 +42,7 @@
 <div class="site-section bg-light">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_1.jpg" alt="mySUNI_2">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_w.jpg" alt="mySUNI_2">
         </div>
     </div>
 </div>
@@ -50,7 +50,15 @@
 <div class="site-section">
     <div class="container" >
         <div class="Detailbox">
-            <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_2.jpg" alt="mySUNI_3">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_1.jpg" alt="mySUNI_3">
+        </div>
+    </div>
+</div>
+
+<div class="site-section bg-light">
+    <div class="container" >
+        <div class="Detailbox">
+            <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_2.jpg" alt="mySUNI_4">
         </div>
     </div>
 </div>

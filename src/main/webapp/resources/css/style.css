@@ -19,15 +19,17 @@
   margin-bottom: 0;
 }
 
-.pc-hide{
-  display: none !important;
+@media (min-width: 768px) {
+  .pc-hide {
+    display: none !important;
+  }
 }
 
   @media (max-width: 767px) {
     .section-title .title {
       font-size: 30px; }
   .mobile-hide{display: none !important;}
-  .pc-hide{display: block;}
+  .pc-hide{display: inline-block !important;}
   }
 
 /*===== All Preloader Style =====*/

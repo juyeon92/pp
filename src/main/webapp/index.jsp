@@ -431,6 +431,7 @@
       <div class="row portfolio_item_wrap">
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
+          <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/09.site_thum.jpg" alt="work">
@@ -445,9 +446,11 @@
               </div>
             </div>
           </div> <!-- single work -->
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
+          <div data-aos="fade-down" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/02.site_thum.png" alt="work">
@@ -462,9 +465,11 @@
               </div>
             </div>
           </div> <!-- single work -->
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
+          <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-lg">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/01.site_thum.jpg" alt="work">
@@ -479,9 +484,11 @@
               </div>
             </div>
           </div> <!-- single work -->
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
+          <div data-aos="fade-down" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/07.site_thum.png" alt="work">
@@ -495,9 +502,11 @@
               </div>
             </div>
           </div> <!-- single work -->
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pc">
+          <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/03.site_thum.png" alt="work">
@@ -511,9 +520,11 @@
               </div>
             </div>
           </div> <!-- single work -->
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
+          <div data-aos="fade-down" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/04.site_thum.png" alt="work">
@@ -528,9 +539,11 @@
               </div>
             </div>
           </div> <!-- single work -->
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item pcm">
+          <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/site/08.site_thum.jpg" alt="work">
@@ -545,9 +558,11 @@
               </div>
             </div>
           </div> <!-- single work -->
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
+          <div data-aos="fade-down" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/event/06.event_thum.png" alt="work">
@@ -562,9 +577,11 @@
               </div>
             </div>
           </div> <!-- single work -->
+          </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio_item event">
+          <div data-aos="fade-up" aos-offset="300" aos-easing="ease-in-sine" aos-duration="800" >
           <div class="single-work text-center mt-lg-5 mt-3">
             <div class="work-image shadow-sm">
               <img src="${pageContext.request.contextPath}/resources/images/work/event/05.event_thum.png" alt="work">
@@ -579,6 +596,7 @@
               </div>
             </div>
           </div> <!-- single work -->
+          </div>
         </div>
 
 
